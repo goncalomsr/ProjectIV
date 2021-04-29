@@ -13,7 +13,7 @@
             $sql_in_1 = "INSERT INTO finaleoption (option_selected) VALUES (1)";
             $result_in_1 = $conn->query($sql_in_1);
 		}
-        header("location: ../AnnarrJord.php");
+        header("location: ../ThankYouPage.html");
         exit();
 	}
 ?>
