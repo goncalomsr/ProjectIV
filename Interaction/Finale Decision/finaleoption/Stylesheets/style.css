@@ -1,0 +1,44 @@
+h1 {
+    font-family: 'Domine', serif;
+    text-align: center;
+    margin: 20px;
+    font-size: 50px;
+    color: black;
+}
+
+h2 {
+    font-family: 'Domine', serif;
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    color: dimgrey;
+}
+
+h3 {
+    font-family: 'Open Sans';
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    color: dimgrey;
+}
+
+p {
+    font-family: 'Domine', serif;
+    text-align: center;
+    margin: 20px;
+    font-size: 16px;
+    color: dimgrey;
+}
+
+.header {
+    overflow: hidden;
+    background-color: beige;
+    margin: -10px;
+}
+
+button {
+    font-family: 'Domine', serif;
+    font-size: 20px;
+    text-align: center;
+}
