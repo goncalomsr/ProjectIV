@@ -1,0 +1,1492 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.7f1 (c53830e277f1) revision 12924976'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.985; Version 2004; 64bit' Language: 'pt' Physical Memory: 16319 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Asus/Unity/4th Semester/Annarr jörd
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52734
+Successfully changed project path to: C:/Users/Asus/Unity/4th Semester/Annarr jörd
+C:/Users/Asus/Unity/4th Semester/Annarr jörd
+Using Asset Import Pipeline V2.
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 137.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.7f1 (c53830e277f1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Asus/Unity/4th Semester/Annarr jörd/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c60)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   27.21.14.5709
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009064 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 76.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.051 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002662 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.027 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1598 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.6 MB.
+System memory in use after: 91.6 MB.
+
+Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 2060.
+Total: 5.668700 ms (FindLiveObjects: 0.298700 ms CreateObjectMapping: 0.121300 ms MarkObjects: 4.631400 ms  DeleteObjects: 0.615100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Terrain/New Terrain.asset
+  artifactKey: Guid(ac5e96f73e2654c428225a88c9080f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/New Terrain.asset using Guid(ac5e96f73e2654c428225a88c9080f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f23009ff40ca980102ad4f9198e7a1') in 0.261859 seconds
+  Import took 0.271052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001373 seconds.
+  path: Assets/Terrain/New Terrain.asset
+  artifactKey: Guid(ac5e96f73e2654c428225a88c9080f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/New Terrain.asset using Guid(ac5e96f73e2654c428225a88c9080f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f23009ff40ca980102ad4f9198e7a1') in 0.108734 seconds
+  Import took 0.118972 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001961 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.390 seconds
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1559 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2065.
+Total: 3.725200 ms (FindLiveObjects: 0.270200 ms CreateObjectMapping: 0.095900 ms MarkObjects: 3.109600 ms  DeleteObjects: 0.247800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5776.936473 seconds.
+  path: Assets/3dModel-Animations/Animations/Dwarf Walk.fbx
+  artifactKey: Guid(b8fd0a317664b2b4aa5a5f0c09086946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModel-Animations/Animations/Dwarf Walk.fbx using Guid(b8fd0a317664b2b4aa5a5f0c09086946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad626737ab62da777720957fb656053c') in 0.152703 seconds
+  Import took 0.159883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/3dModel-Animations/Animations/IdleLook.fbx
+  artifactKey: Guid(d49747d74bb9a0e42b7cedb755985dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModel-Animations/Animations/IdleLook.fbx using Guid(d49747d74bb9a0e42b7cedb755985dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75deff9c4b547d67cda8cf13ad2defab') in 0.016956 seconds
+  Import took 0.021879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/3dModel-Animations/Animations/Reacting.fbx
+  artifactKey: Guid(affb67d5fbd740c4fba3d68f40e0267f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModel-Animations/Animations/Reacting.fbx using Guid(affb67d5fbd740c4fba3d68f40e0267f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d562f9efd7dd96721c36bff5916767') in 0.016153 seconds
+  Import took 0.020618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/3dModel-Animations/Animations/Mutant Flexing Muscles.fbx
+  artifactKey: Guid(ec61cb8f43af78646ae9a69bb719e599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModel-Animations/Animations/Mutant Flexing Muscles.fbx using Guid(ec61cb8f43af78646ae9a69bb719e599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7c064912b0d88957446a9f4985b574') in 0.021267 seconds
+  Import took 0.027494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/3dModel-Animations/Animations/Standing Taunt Battlecry.fbx
+  artifactKey: Guid(2e32777084f7f0c4b9a9d2a4c6c2034f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModel-Animations/Animations/Standing Taunt Battlecry.fbx using Guid(2e32777084f7f0c4b9a9d2a4c6c2034f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f47ec20c5b84305bc96b6b1c845998') in 0.017062 seconds
+  Import took 0.022058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/3dModel-Animations/Animations/Standing Up.fbx
+  artifactKey: Guid(1688d015c672fc14f839b8f73e140f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModel-Animations/Animations/Standing Up.fbx using Guid(1688d015c672fc14f839b8f73e140f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40b033d4556bcf9d472634adb923d79') in 0.014025 seconds
+  Import took 0.019795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000552 seconds.
+  path: Assets/3dModel-Animations/Animations/Nervously Look Around.fbx
+  artifactKey: Guid(af9d0ffde95ef6c4581edd6b5ed024ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModel-Animations/Animations/Nervously Look Around.fbx using Guid(af9d0ffde95ef6c4581edd6b5ed024ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b01e3d4beee0a97b76abe1ba72f1df7') in 0.019710 seconds
+  Import took 0.025346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.080065 seconds.
+  path: Assets/3dModel-Animations/Animations/Standing Up.fbx
+  artifactKey: Guid(1688d015c672fc14f839b8f73e140f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModel-Animations/Animations/Standing Up.fbx using Guid(1688d015c672fc14f839b8f73e140f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40b033d4556bcf9d472634adb923d79') in 0.007573 seconds
+  Import took 0.011375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.984545 seconds.
+  path: Assets/3dModel-Animations/AnimatorControllers/Hero.controller
+  artifactKey: Guid(617c780cc8498a444a2e5b11676e411a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModel-Animations/AnimatorControllers/Hero.controller using Guid(617c780cc8498a444a2e5b11676e411a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5760f61fa7109f1832e1ce3c33a573bc') in 0.046280 seconds
+  Import took 0.057007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002112 seconds.
+  path: Assets/3dModel-Animations/AnimatorControllers/Hero.controller
+  artifactKey: Guid(617c780cc8498a444a2e5b11676e411a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModel-Animations/AnimatorControllers/Hero.controller using Guid(617c780cc8498a444a2e5b11676e411a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5760f61fa7109f1832e1ce3c33a573bc') in 0.018114 seconds
+  Import took 0.023179 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002531 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.164 seconds
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1559 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2068.
+Total: 3.031800 ms (FindLiveObjects: 0.203700 ms CreateObjectMapping: 0.073000 ms MarkObjects: 2.586500 ms  DeleteObjects: 0.167100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 667.475030 seconds.
+  path: Assets/3dModel-Animations/Animations/Standing Up.fbx
+  artifactKey: Guid(1688d015c672fc14f839b8f73e140f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModel-Animations/Animations/Standing Up.fbx using Guid(1688d015c672fc14f839b8f73e140f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4993819e9e6db18e9efcba5ccae955') in 0.037811 seconds
+  Import took 0.045360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016794 seconds.
+  path: Assets/3dModel-Animations/Animations/Standing Up.fbx
+  artifactKey: Guid(1688d015c672fc14f839b8f73e140f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModel-Animations/Animations/Standing Up.fbx using Guid(1688d015c672fc14f839b8f73e140f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4993819e9e6db18e9efcba5ccae955') in 0.008305 seconds
+  Import took 0.012438 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004968 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.652 seconds
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.95 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1559 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2071.
+Total: 5.073300 ms (FindLiveObjects: 0.524300 ms CreateObjectMapping: 0.167100 ms MarkObjects: 3.918700 ms  DeleteObjects: 0.448900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.343455 seconds.
+  path: Assets/3dModel-Animations/AnimatorControllers/Hero.controller
+  artifactKey: Guid(617c780cc8498a444a2e5b11676e411a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModel-Animations/AnimatorControllers/Hero.controller using Guid(617c780cc8498a444a2e5b11676e411a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9c145c053b7e6d85f20673d77e2300') in 0.023982 seconds
+  Import took 0.028939 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002199 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 1.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.862 seconds
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 1.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1559 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2074.
+Total: 4.336600 ms (FindLiveObjects: 0.417100 ms CreateObjectMapping: 0.208200 ms MarkObjects: 3.511600 ms  DeleteObjects: 0.197900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002698 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.442 seconds
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1559 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2077.
+Total: 4.107200 ms (FindLiveObjects: 0.483500 ms CreateObjectMapping: 0.132200 ms MarkObjects: 3.236500 ms  DeleteObjects: 0.253300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001669 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.102 seconds
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1559 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2080.
+Total: 2.936500 ms (FindLiveObjects: 0.273000 ms CreateObjectMapping: 0.064100 ms MarkObjects: 2.386000 ms  DeleteObjects: 0.211200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 22679.222650 seconds.
+  path: Assets/Sounds
+  artifactKey: Guid(628506284ade98141b56f5cb80991b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds using Guid(628506284ade98141b56f5cb80991b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb80ee45dc64115caabf0ae6b4abd364') in 0.014190 seconds
+  Import took 0.019671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.038451 seconds.
+  path: Assets/Sounds/Music
+  artifactKey: Guid(742eca62ba3834345ac7700dd4356af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Music using Guid(742eca62ba3834345ac7700dd4356af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c675d066b08023fd6995dbbdcc16eba5') in 0.010337 seconds
+  Import took 0.018649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.803132 seconds.
+  path: Assets/Sounds/Music/Avatar's Love (Kalimba Cover) Kalimba Academy.mp3
+  artifactKey: Guid(f52cfd667c3a8c34cb0502e3b26574a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Music/Avatar's Love (Kalimba Cover) Kalimba Academy.mp3 using Guid(f52cfd667c3a8c34cb0502e3b26574a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55dd16afa9b77c30cab5af40f8587141') in 0.137186 seconds
+  Import took 0.141571 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001649 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.086 seconds
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1559 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.1 MB.
+System memory in use after: 92.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2091.
+Total: 2.660700 ms (FindLiveObjects: 0.285600 ms CreateObjectMapping: 0.078600 ms MarkObjects: 2.117400 ms  DeleteObjects: 0.177400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 134.595312 seconds.
+  path: Assets/Scripts/Music
+  artifactKey: Guid(29612850b2716ec41b87405cc8d29168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Music using Guid(29612850b2716ec41b87405cc8d29168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a997b514bf59ca8cbfb7ddb4ca6a0ab4') in 0.008820 seconds
+  Import took 0.013102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.460995 seconds.
+  path: Assets/Scripts/Music/InitialMusic.cs
+  artifactKey: Guid(980bfc6b0f33e7e4eaeca11a5dc27977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Music/InitialMusic.cs using Guid(980bfc6b0f33e7e4eaeca11a5dc27977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d9f1e9398cf5d1168c628431788464') in 0.029383 seconds
+  Import took 0.034605 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001635 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.177 seconds
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 4.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1560 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.2 MB.
+System memory in use after: 92.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2095.
+Total: 3.844900 ms (FindLiveObjects: 0.459900 ms CreateObjectMapping: 0.180100 ms MarkObjects: 2.990800 ms  DeleteObjects: 0.212700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001582 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.182 seconds
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1560 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.2 MB.
+System memory in use after: 92.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2098.
+Total: 3.631000 ms (FindLiveObjects: 0.291700 ms CreateObjectMapping: 0.128700 ms MarkObjects: 2.979900 ms  DeleteObjects: 0.229500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002044 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.344 seconds
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1560 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.2 MB.
+System memory in use after: 92.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2101.
+Total: 3.413700 ms (FindLiveObjects: 0.679300 ms CreateObjectMapping: 0.215700 ms MarkObjects: 2.352600 ms  DeleteObjects: 0.163800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1066.878482 seconds.
+  path: Assets/Scripts/Music & Sound
+  artifactKey: Guid(29612850b2716ec41b87405cc8d29168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Music & Sound using Guid(29612850b2716ec41b87405cc8d29168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91535f34d11d89f20d75c109c148be7d') in 0.014996 seconds
+  Import took 0.024836 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001558 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.337 seconds
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1560 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.2 MB.
+System memory in use after: 92.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2104.
+Total: 3.647600 ms (FindLiveObjects: 0.379600 ms CreateObjectMapping: 0.177100 ms MarkObjects: 2.920300 ms  DeleteObjects: 0.168800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.372682 seconds.
+  path: Assets/Scripts/Music & Sound/Narration.cs
+  artifactKey: Guid(3b07f3a59cf26914ba69f08d2930d355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Music & Sound/Narration.cs using Guid(3b07f3a59cf26914ba69f08d2930d355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8efe9116945da7bccda1002a9dfa98b') in 0.013734 seconds
+  Import took 0.022471 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003727 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.288 seconds
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1561 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.2 MB.
+System memory in use after: 92.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2108.
+Total: 3.455300 ms (FindLiveObjects: 0.291800 ms CreateObjectMapping: 0.128800 ms MarkObjects: 2.869000 ms  DeleteObjects: 0.164100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.727751 seconds.
+  path: Assets/Scripts/Music & Sound/Narration.cs
+  artifactKey: Guid(3b07f3a59cf26914ba69f08d2930d355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Music & Sound/Narration.cs using Guid(3b07f3a59cf26914ba69f08d2930d355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241d3e215261896cfe07569771eb424d') in 0.010171 seconds
+  Import took 0.018155 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001593 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.102 seconds
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1561 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.2 MB.
+System memory in use after: 92.3 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2111.
+Total: 3.955400 ms (FindLiveObjects: 0.337800 ms CreateObjectMapping: 0.104000 ms MarkObjects: 3.327700 ms  DeleteObjects: 0.184600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002744 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.157 seconds
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1561 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.2 MB.
+System memory in use after: 92.3 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2114.
+Total: 2.828000 ms (FindLiveObjects: 0.404900 ms CreateObjectMapping: 0.137600 ms MarkObjects: 2.138800 ms  DeleteObjects: 0.145100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002647 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.129 seconds
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1561 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.2 MB.
+System memory in use after: 92.3 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2117.
+Total: 2.911900 ms (FindLiveObjects: 0.355800 ms CreateObjectMapping: 0.136300 ms MarkObjects: 2.272100 ms  DeleteObjects: 0.145900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001602 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.131 seconds
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1561 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.2 MB.
+System memory in use after: 92.3 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2120.
+Total: 3.543800 ms (FindLiveObjects: 0.297400 ms CreateObjectMapping: 0.104100 ms MarkObjects: 2.953600 ms  DeleteObjects: 0.187500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001718 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.181 seconds
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1561 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.3 MB.
+System memory in use after: 92.3 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2123.
+Total: 2.788100 ms (FindLiveObjects: 0.325900 ms CreateObjectMapping: 0.146300 ms MarkObjects: 2.098100 ms  DeleteObjects: 0.216600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001723 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.120 seconds
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1561 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.2 MB.
+System memory in use after: 92.3 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2126.
+Total: 4.122500 ms (FindLiveObjects: 0.345100 ms CreateObjectMapping: 0.222400 ms MarkObjects: 3.159900 ms  DeleteObjects: 0.393100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 732.364239 seconds.
+  path: Assets/Sounds/Narration
+  artifactKey: Guid(eaa78c421d21dd648a5b922371f5b41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Narration using Guid(eaa78c421d21dd648a5b922371f5b41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191866fa63a2c63c6407664167296c21') in 0.010392 seconds
+  Import took 0.018340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.613262 seconds.
+  path: Assets/Sounds/Narration/1 - In a distant land in space and time....mp3
+  artifactKey: Guid(94869d0efcc4dc943bbc07db9c770e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Narration/1 - In a distant land in space and time....mp3 using Guid(94869d0efcc4dc943bbc07db9c770e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d42ac8af37757c802b9af5f5199473') in 0.089251 seconds
+  Import took 0.097544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Sounds/Narration/9 - Darkness is necessary.mp3
+  artifactKey: Guid(09b6e3a74985d7948b6428d2fd8c5f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Narration/9 - Darkness is necessary.mp3 using Guid(09b6e3a74985d7948b6428d2fd8c5f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5cad81a8addff1ede620d15e1205063') in 0.023951 seconds
+  Import took 0.027861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Sounds/Narration/5 - Because, where is light....mp3
+  artifactKey: Guid(8db2b406b0c47de45874421916994516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Narration/5 - Because, where is light....mp3 using Guid(8db2b406b0c47de45874421916994516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e069de0fc5685918ee3e9bc50e955b2d') in 0.028621 seconds
+  Import took 0.036997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Sounds/Narration/6 - Opposite to our hero of light....mp3
+  artifactKey: Guid(ae6eb89e96e92184a962b2bfae4b4bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Narration/6 - Opposite to our hero of light....mp3 using Guid(ae6eb89e96e92184a962b2bfae4b4bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4461dfe91f49b3ada208dd515b9414f') in 0.045161 seconds
+  Import took 0.050431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Sounds/Narration/4 - But his destiny....mp3
+  artifactKey: Guid(c585872720a53b54eba06cdce96a62dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Narration/4 - But his destiny....mp3 using Guid(c585872720a53b54eba06cdce96a62dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a49ba8ae70edbda319886027eb46590') in 0.022291 seconds
+  Import took 0.026477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Sounds/Narration/3 - The hero of light....mp3
+  artifactKey: Guid(b96003f17bb06394080c9e8a0a9cdec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Narration/3 - The hero of light....mp3 using Guid(b96003f17bb06394080c9e8a0a9cdec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b9c4daac6d9fc57c07384a06b9ae50') in 0.023167 seconds
+  Import took 0.028174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Sounds/Narration/2 - Each of this kingdoms....mp3
+  artifactKey: Guid(54c7f1c73d5e16042b32d055e771b5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Narration/2 - Each of this kingdoms....mp3 using Guid(54c7f1c73d5e16042b32d055e771b5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7a5e6c382e1e72a7074a1abfab87e9') in 0.022580 seconds
+  Import took 0.029042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Sounds/Narration/8 - Is light all there is good.mp3
+  artifactKey: Guid(b54dd896ced8412419602becb2cfb135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Narration/8 - Is light all there is good.mp3 using Guid(b54dd896ced8412419602becb2cfb135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfffd4bdc4b48e9b57caf281a5b99d5f') in 0.023531 seconds
+  Import took 0.028858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Sounds/Narration/7 - Light above all.mp3
+  artifactKey: Guid(09e18b610afe8264181a759dd6007147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Narration/7 - Light above all.mp3 using Guid(09e18b610afe8264181a759dd6007147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f719bc8b2c6f05d1fe5b0872b1a3d6') in 0.022779 seconds
+  Import took 0.027122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Sounds/Narration/10 - Darkness is necessary.mp3
+  artifactKey: Guid(6855b98de4735764f9c94ae293e1774b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Narration/10 - Darkness is necessary.mp3 using Guid(6855b98de4735764f9c94ae293e1774b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02bcfe24b85984f69f6a6fe6a286b46a') in 0.018315 seconds
+  Import took 0.022998 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001669 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.116 seconds
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1561 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.3 MB.
+System memory in use after: 92.3 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2130.
+Total: 3.508400 ms (FindLiveObjects: 1.043800 ms CreateObjectMapping: 0.187600 ms MarkObjects: 2.129400 ms  DeleteObjects: 0.146400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001827 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.101 seconds
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1561 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.3 MB.
+System memory in use after: 92.3 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2133.
+Total: 3.403800 ms (FindLiveObjects: 0.428200 ms CreateObjectMapping: 0.206700 ms MarkObjects: 2.575100 ms  DeleteObjects: 0.192400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002572 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.101 seconds
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1561 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.3 MB.
+System memory in use after: 92.3 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2136.
+Total: 3.493100 ms (FindLiveObjects: 0.256300 ms CreateObjectMapping: 0.145900 ms MarkObjects: 2.913300 ms  DeleteObjects: 0.176300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 489.754656 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3ac3377ded750c806afa6ce12ed7dc') in 0.012605 seconds
+  Import took 0.019100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001909 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3ac3377ded750c806afa6ce12ed7dc') in 0.004783 seconds
+  Import took 0.008955 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001551 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.120 seconds
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1561 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.3 MB.
+System memory in use after: 92.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2139.
+Total: 3.105500 ms (FindLiveObjects: 0.279700 ms CreateObjectMapping: 0.122700 ms MarkObjects: 2.546200 ms  DeleteObjects: 0.154900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001906 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.066 seconds
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1561 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.3 MB.
+System memory in use after: 92.3 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2142.
+Total: 3.198200 ms (FindLiveObjects: 0.516500 ms CreateObjectMapping: 0.104500 ms MarkObjects: 2.401700 ms  DeleteObjects: 0.173200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 203.250317 seconds.
+  path: Assets/Scripts/Music & Sound/InitialMusic.cs
+  artifactKey: Guid(980bfc6b0f33e7e4eaeca11a5dc27977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Music & Sound/InitialMusic.cs using Guid(980bfc6b0f33e7e4eaeca11a5dc27977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44beb7dfe7f92deb154b38ab8b3ee289') in 0.011476 seconds
+  Import took 0.015301 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001770 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.130 seconds
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1561 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.3 MB.
+System memory in use after: 92.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2145.
+Total: 3.255600 ms (FindLiveObjects: 0.345100 ms CreateObjectMapping: 0.124900 ms MarkObjects: 2.597000 ms  DeleteObjects: 0.187500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001951 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.094 seconds
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1561 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.3 MB.
+System memory in use after: 92.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2148.
+Total: 3.359800 ms (FindLiveObjects: 0.492400 ms CreateObjectMapping: 0.213200 ms MarkObjects: 2.467800 ms  DeleteObjects: 0.185300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001798 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.070 seconds
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1561 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.3 MB.
+System memory in use after: 92.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2151.
+Total: 4.414900 ms (FindLiveObjects: 0.366100 ms CreateObjectMapping: 0.154000 ms MarkObjects: 3.653100 ms  DeleteObjects: 0.240400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002249 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.234 seconds
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1561 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.3 MB.
+System memory in use after: 92.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2154.
+Total: 3.126600 ms (FindLiveObjects: 0.321300 ms CreateObjectMapping: 0.085000 ms MarkObjects: 2.548100 ms  DeleteObjects: 0.156000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002501 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.083 seconds
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1561 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.4 MB.
+System memory in use after: 92.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2157.
+Total: 2.877800 ms (FindLiveObjects: 0.367500 ms CreateObjectMapping: 0.123100 ms MarkObjects: 2.227600 ms  DeleteObjects: 0.158400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001941 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.439 seconds
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1561 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.4 MB.
+System memory in use after: 92.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2160.
+Total: 3.079500 ms (FindLiveObjects: 0.250700 ms CreateObjectMapping: 0.087000 ms MarkObjects: 2.544800 ms  DeleteObjects: 0.195600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001569 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.214 seconds
+Platform modules already initialized, skipping
+Multiple plugins with the same name 'kinectunityaddin' (found at 'Assets/ImportedPackages/Plugins/Metro/KinectUnityAddin.dll' and 'Assets/ImportedPackages/Plugins/x86_64/KinectUnityAddin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1561 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.4 MB.
+System memory in use after: 92.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2163.
+Total: 4.170900 ms (FindLiveObjects: 0.688600 ms CreateObjectMapping: 0.110300 ms MarkObjects: 3.148000 ms  DeleteObjects: 0.222100 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

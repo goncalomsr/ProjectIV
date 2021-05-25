@@ -22,23 +22,37 @@
     <main>
         <div class="description">
             <h3>
-                In a distant land, there are four kingdoms living in harmony,
-                each, ruled by the elemental leader. A hero of light must fulfill
-                his destiny and battle darkness once and for all. But unknowably to him,
-                his destiny is in his hands and in the final choice he makes.
+                A hero of light must fulfill
+                his destiny and battle darkness once and for all, but, unknowably to him
+                his destiny isn't in his hands.
             </h3>
         </div>
         <br />
         <div class="buttons">
             <form action="Php/sendoptions.php" method="post">
-                <button id="option0" name="option0" value= "0" onclick="alert('Light above all!')">
+                <button id="option0" name="option0" class="buttonFormat" value= "0" onclick="alert('Light above all!')">
                 Is Light above all and all there is needed?
                 </button>
-
-                <button id="option1" name="option1" value="1" onclick="alert('Darkness is necessary!')">
+                <button id="option1" name="option1" class="buttonFormat" value="1" onclick="alert('Darkness is necessary!')">
                 Is Darkness needed to have balance?
                 </button>
             </form>
+        </div>
+        <div class="footer">
+        </br>
+            Enjoy this visual experience!
+            </br>
+            </br>
+            Gon&#231alo Raba&#231a
+            </br>
+            Josean Portillo
+            </br>
+            Creative Technologies
+            </br>
+            </br>
+            <img src="Images/logo.png" alt="IADE logo" width="30%" height="30%">
+            </br>
+            </br>
         </div>
     </main>
 </body>
