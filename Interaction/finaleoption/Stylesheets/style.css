@@ -1,0 +1,89 @@
+h1 {
+    font-family: 'Domine', serif;
+    text-align: center;
+    margin: 20px;
+    font-size: 50px;
+    color: black;
+}
+
+h2 {
+    font-family: 'Domine', serif;
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    color: dimgrey;
+}
+
+h3 {
+    font-family: 'Open Sans';
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: dimgrey;
+}
+
+p {
+    font-family: 'Open Sans', serif;
+    text-align: center;
+    margin: 20px;
+    font-size: 16px;
+    color: white;
+}
+
+.header {
+    overflow: hidden;
+    background: #F6E5CC;
+    margin: 3%;
+}
+
+button {
+    font-family: 'Domine', serif;
+    font-size: 20px;
+    
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.buttonFormat {
+    width: 80%;
+    height: 60px;
+    background: #F6E5CC;
+    border: none;
+    border-radius: 20px;
+    font-family: Domine;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1em;
+    padding: 0 5% 0 5%;
+    color: #000000;
+    line-height: 20px;
+    margin: 10px;
+}
+
+.buttonFormat:hover {
+    background: #FBF4E9;
+}
+
+.footer {
+    background: #504E31;
+    margin: -50px;
+    margin-top: 50px;
+    font-family: 'Open Sans', serif;
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}

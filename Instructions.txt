@@ -1,0 +1,14 @@
+There are 2 folders one named Annarr jörd and another named Interaction.
+
+Folder named Annarr jörd is the main unity project.
+	- Open this folder using unity version 2020.2.7f1 and the scene to be used is called AnnarrJörd.unity
+	- Play to watch the cinematic using the game window
+
+Folder named Interaction is the website for the interaction where the users are going to choose the ending, along with the database.
+	- finaleoption.sql is the file to create the database
+	- Folder named finaleoption is the folder containing the php files for the website
+		- index.php is the main file containing the code for the website
+	- To vote click on the desired button and it is submitted automatically onto the database.
+
+* For now the second endig is still not optimized, that's why the interaction is just limited to one ending *
+* The connection to the database is working well but commented for testing purposes * 
