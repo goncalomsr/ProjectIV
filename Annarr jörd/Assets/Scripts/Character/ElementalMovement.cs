@@ -25,8 +25,6 @@ public class ElementalMovement : MonoBehaviour
     public ElementalInfo[] elementalInfo;
     private int currentElementalIndex;
     private Rigidbody rb;
-    public Vector3 offset;
-
 
     void Start()
     {
@@ -63,7 +61,7 @@ public class ElementalMovement : MonoBehaviour
             {
                 rb.constraints = ~RigidbodyConstraints.FreezeAll;
                 transform.LookAt(elementalInfo[currentElementalIndex].target);
-                transform.position = Vector3.MoveTowards(transform.position, elementalInfo[currentElementalIndex].endPostion.position - offset,
+                transform.position = Vector3.MoveTowards(transform.position, elementalInfo[currentElementalIndex].endPostion.position,
                                                          elementalInfo[currentElementalIndex].speed * Time.deltaTime);
                 elementalInfo[currentElementalIndex].anim.SetBool(elementalInfo[currentElementalIndex].anima, true);
                 if (Vector3.Distance(transform.position, elementalInfo[currentElementalIndex].endPostion.position) < 1f)

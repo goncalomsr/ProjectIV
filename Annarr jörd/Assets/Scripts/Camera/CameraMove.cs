@@ -16,6 +16,7 @@ public class CameraInfo
     public float speed;
     public float timer;
     public float waitTime;
+    public bool startTimerNow;
 }
 
 public class CameraMove : MonoBehaviour
@@ -29,12 +30,12 @@ public class CameraMove : MonoBehaviour
         currentCameraIndex = 0;
         transform.position = cameraInfo[currentCameraIndex].startPostion.position;
 
-        //Time.timeScale = 3;
+        Time.timeScale = 3;
     }
 
     void Update()
     {
-        if(currentCameraIndex == 30)
+        if(currentCameraIndex == 24)
         {
             Time.timeScale = 1;
         }
@@ -61,7 +62,7 @@ public class CameraMove : MonoBehaviour
                 transform.LookAt(cameraInfo[currentCameraIndex].target);
                 transform.position = Vector3.MoveTowards(transform.position, cameraInfo[currentCameraIndex].endPostion.position,
                                                          cameraInfo[currentCameraIndex].speed * Time.deltaTime);
-                if (Vector3.Distance(transform.position, cameraInfo[currentCameraIndex].endPostion.position) < 0.1f)
+                if (Vector3.Distance(transform.position, cameraInfo[currentCameraIndex].endPostion.position) < 0.1f || cameraInfo[currentCameraIndex].startTimerNow)
                 {
                     cameraInfo[currentCameraIndex].timer += Time.deltaTime;
                     if (cameraInfo[currentCameraIndex].timer > cameraInfo[currentCameraIndex].waitTime)

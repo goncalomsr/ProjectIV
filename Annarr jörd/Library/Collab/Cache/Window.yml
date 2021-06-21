@@ -14,10 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Scenes/SampleScene.unity
-    - Assets/Scenes/SampleScene.unity.meta
+    - Assets/Materials-Textures/Particle Textures/PNG (Transparent)/portal1 1.png.meta
+    - Assets/Materials-Textures/Particle Textures/Portal-1.mat
+    - Assets/Materials-Textures/Particle Textures/Portal-1.mat.meta
+    - Assets/Materials-Textures/Particle Textures/Portal-2.mat
+    - Assets/Materials-Textures/Particle Textures/Portal-2.mat.meta
+    - Assets/Scripts/Camera/CameraMove.cs
+    - Assets/Scripts/VFX/PortalOpening.cs
     - 
-    m_Values: 000000
+    m_Values: 0101010101010101
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
