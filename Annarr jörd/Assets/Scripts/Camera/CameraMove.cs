@@ -21,8 +21,10 @@ public class CameraInfo
 
 public class CameraMove : MonoBehaviour
 {
-    public CameraInfo[] cameraInfo;
+    public bool secondEnding;
+    public int secondCameraIndex;
     private int currentCameraIndex;
+    public CameraInfo[] cameraInfo;
 
 
     void Start()

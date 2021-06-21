@@ -14,15 +14,351 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/3dModel-Animations/Earth.meta
+    - Assets/3dModel-Animations/Earth/Earth 1.meta
+    - Assets/3dModel-Animations/Earth/Earth 1/Earth.controller
+    - Assets/3dModel-Animations/Earth/Earth 1/Earth.controller.meta
+    - Assets/3dModel-Animations/Earth/Earth 1/earth.fbx.meta
+    - Assets/3dModel-Animations/Earth/Earth 1/tex.meta
+    - Assets/3dModel-Animations/Earth/Earth 1/tex/Body.mat
+    - Assets/3dModel-Animations/Earth/Earth 1/tex/Body.mat.meta
+    - Assets/3dModel-Animations/Earth/Earth 1/tex/Misc.mat
+    - Assets/3dModel-Animations/Earth/Earth 1/tex/Misc.mat.meta
+    - Assets/3dModel-Animations/Earth/Earth 1/tex/Rogue_ACC_AO.tga.png.meta
+    - Assets/3dModel-Animations/Earth/Earth 1/tex/Rogue_ACC_Albedo.tga.png.meta
+    - Assets/3dModel-Animations/Earth/Earth 1/tex/Rogue_ACC_NormalMap.tga.png.meta
+    - Assets/3dModel-Animations/Earth/Earth 1/tex/Rogue_ACC_Specular.tga.png.meta
+    - Assets/3dModel-Animations/Earth/Earth 1/tex/Rogue_Body_AO.tga.png.meta
+    - Assets/3dModel-Animations/Earth/Earth 1/tex/Rogue_Body_Albedo.png.meta
+    - Assets/3dModel-Animations/Earth/Earth 1/tex/Rogue_Body_Albedo.tga.png.meta
+    - Assets/3dModel-Animations/Earth/Earth 1/tex/Rogue_Body_NormalMap.tga.png.meta
+    - Assets/3dModel-Animations/Earth/Earth 1/tex/Rogue_Body_Specular.tga.png.meta
+    - Assets/3dModel-Animations/Earth/Earth 1/tex/Rogue_Syal_AO.tga.png.meta
+    - Assets/3dModel-Animations/Earth/Earth 1/tex/Rogue_Syal_Albedo.tga.png.meta
+    - Assets/3dModel-Animations/Earth/Earth 1/tex/Rogue_Syal_NormalMap.tga.png.meta
+    - Assets/3dModel-Animations/Earth/Earth 1/tex/Rogue_Syal_Specular.tga.png.meta
+    - Assets/3dModel-Animations/Earth/Female Dynamic Pose.fbx.meta
+    - Assets/3dModel-Animations/Earth/earth.fbx.meta
+    - Assets/3dModel-Animations/Fire.meta
+    - Assets/3dModel-Animations/Fire/Agony 1.fbx.meta
+    - Assets/3dModel-Animations/Fire/Agony 2.fbx.meta
+    - Assets/3dModel-Animations/Fire/Agony 3.fbx.meta
+    - Assets/3dModel-Animations/Fire/Attack 1.fbx.meta
+    - Assets/3dModel-Animations/Fire/Dead 1.fbx.meta
+    - Assets/3dModel-Animations/Fire/Dead 2.fbx.meta
+    - Assets/3dModel-Animations/Fire/Dead 3.fbx.meta
+    - Assets/3dModel-Animations/Fire/FIre.controller
+    - Assets/3dModel-Animations/Fire/FIre.controller.meta
+    - Assets/3dModel-Animations/Fire/Fire 1.meta
+    - Assets/3dModel-Animations/Fire/Fire 1/fire.fbx.meta
+    - Assets/3dModel-Animations/Fire/Fire 1/tex.meta
+    - Assets/3dModel-Animations/Fire/Fire 1/tex/Body.mat
+    - Assets/3dModel-Animations/Fire/Fire 1/tex/Body.mat.meta
+    - Assets/3dModel-Animations/Fire/Fire 1/tex/Lancer_ACC_AO.tga.png.meta
+    - Assets/3dModel-Animations/Fire/Fire 1/tex/Lancer_ACC_Albedo.tga.png.meta
+    - Assets/3dModel-Animations/Fire/Fire 1/tex/Lancer_ACC_NormalMap.tga.png.meta
+    - Assets/3dModel-Animations/Fire/Fire 1/tex/Lancer_ACC_Specular.tga.png.meta
+    - Assets/3dModel-Animations/Fire/Fire 1/tex/Lancer_Body_AO.tga.png.meta
+    - Assets/3dModel-Animations/Fire/Fire 1/tex/Lancer_Body_Albedo.png.meta
+    - Assets/3dModel-Animations/Fire/Fire 1/tex/Lancer_Body_Albedo.tga.png.meta
+    - Assets/3dModel-Animations/Fire/Fire 1/tex/Lancer_Body_NormalMap.tga.png.meta
+    - Assets/3dModel-Animations/Fire/Fire 1/tex/Lancer_Body_Specular.tga.png.meta
+    - Assets/3dModel-Animations/Fire/Fire 1/tex/Materials.meta
+    - Assets/3dModel-Animations/Fire/Fire 1/tex/Materials/Lancer_ACC_Albedo.tga.mat
+    - Assets/3dModel-Animations/Fire/Fire 1/tex/Materials/Lancer_ACC_Albedo.tga.mat.meta
+    - Assets/3dModel-Animations/Fire/Fire 1/tex/Misc.mat
+    - Assets/3dModel-Animations/Fire/Fire 1/tex/Misc.mat.meta
+    - Assets/3dModel-Animations/Fire/Idle.fbx.meta
+    - Assets/3dModel-Animations/Fire/Prepared 1.fbx.meta
+    - Assets/3dModel-Animations/Fire/Prepared 2.fbx.meta
+    - Assets/3dModel-Animations/Fire/Prepared 3.fbx.meta
+    - Assets/3dModel-Animations/Fire/Prepared 4.fbx.meta
+    - Assets/3dModel-Animations/Fire/React 1.fbx.meta
+    - Assets/3dModel-Animations/Fire/React 2.fbx.meta
+    - Assets/3dModel-Animations/Fire/React 3.fbx.meta
+    - Assets/3dModel-Animations/Fire/Running.fbx.meta
+    - Assets/3dModel-Animations/Fire/Walking.fbx.meta
+    - Assets/3dModel-Animations/Fire/Yelling 1.fbx.meta
+    - Assets/3dModel-Animations/Fire/Yelling 2.fbx.meta
+    - Assets/3dModel-Animations/Fire/Yelling 3.fbx.meta
+    - Assets/3dModel-Animations/Fire/Yelling 4.fbx.meta
+    - Assets/3dModel-Animations/Fire/fire (1).fbx.meta
+    - Assets/3dModel-Animations/Hero1.meta
+    - Assets/3dModel-Animations/Hero1/1.meta
+    - Assets/3dModel-Animations/Hero1/1/Crouch Idle (1).fbx.meta
+    - Assets/3dModel-Animations/Hero1/1/Hero-Idle.fbx.meta
+    - Assets/3dModel-Animations/Hero1/1/Hero.controller
+    - Assets/3dModel-Animations/Hero1/1/Hero.controller.meta
+    - Assets/3dModel-Animations/Hero1/1/Looking Around.fbx.meta
+    - Assets/3dModel-Animations/Hero1/1/Mutant Jump Attack.fbx.meta
+    - Assets/3dModel-Animations/Hero1/1/Running (1).fbx.meta
+    - Assets/3dModel-Animations/Hero1/1/Sitting 2.fbx.meta
+    - Assets/3dModel-Animations/Hero1/1/Sitting Idle (1).fbx.meta
+    - Assets/3dModel-Animations/Hero1/1/Standing 2H Cast Spell 01.fbx.meta
+    - Assets/3dModel-Animations/Hero1/1/Standing Up (1).fbx.meta
+    - Assets/3dModel-Animations/Hero1/1/Walking.fbx.meta
+    - Assets/3dModel-Animations/Hero1/1/ch206001_body.png.meta
+    - Assets/3dModel-Animations/Hero1/1/ch206001_face.png.meta
+    - Assets/3dModel-Animations/Hero1/Hero.controller
+    - Assets/3dModel-Animations/Hero1/Hero.controller.meta
+    - Assets/3dModel-Animations/Hero1/Hero.meta
+    - Assets/3dModel-Animations/Hero1/Hero/hero basic.fbx.meta
+    - Assets/3dModel-Animations/Hero1/Hero/hero transformation.fbx.meta
+    - Assets/3dModel-Animations/Hero1/Hero/tex - transformation.meta
+    - Assets/3dModel-Animations/Hero1/Hero/tex - transformation/Body.mat
+    - Assets/3dModel-Animations/Hero1/Hero/tex - transformation/Body.mat.meta
+    - Assets/3dModel-Animations/Hero1/Hero/tex - transformation/MAGE01_Difuse.jpg.meta
+    - Assets/3dModel-Animations/Hero1/Hero/tex - transformation/MAGE01_Normal.jpg.meta
+    - Assets/3dModel-Animations/Hero1/Hero/tex - transformation/MAGE01_Oclu.jpg.meta
+    - Assets/3dModel-Animations/Hero1/Hero/tex - transformation/MAGE01_Reflect.jpg.meta
+    - Assets/3dModel-Animations/Hero1/Hero/tex - transformation/MAGE01_Roughness.jpg.meta
+    - Assets/3dModel-Animations/Hero1/Hero/tex - transformation/MAGE02_Difuse.jpg.meta
+    - Assets/3dModel-Animations/Hero1/Hero/tex - transformation/MAGE02_Difuse.jpg.png.meta
+    - Assets/3dModel-Animations/Hero1/Hero/tex - transformation/MAGE02_Normal.jpg.meta
+    - Assets/3dModel-Animations/Hero1/Hero/tex - transformation/MAGE02_Oclu.jpg.meta
+    - Assets/3dModel-Animations/Hero1/Hero/tex - transformation/MAGE02_Reflect.jpg.meta
+    - Assets/3dModel-Animations/Hero1/Hero/tex - transformation/MAGE02_Roughness.jpg.meta
+    - Assets/3dModel-Animations/Hero1/Hero/tex - transformation/Misc.mat
+    - Assets/3dModel-Animations/Hero1/Hero/tex - transformation/Misc.mat.meta
+    - Assets/3dModel-Animations/Hero1/Hero/tex.meta
+    - Assets/3dModel-Animations/Hero1/Hero/tex/Body.mat
+    - Assets/3dModel-Animations/Hero1/Hero/tex/Body.mat.meta
+    - Assets/3dModel-Animations/Hero1/Hero/tex/MAGE01_Difuse.jpg.meta
+    - Assets/3dModel-Animations/Hero1/Hero/tex/MAGE01_Difuse1.png.meta
+    - Assets/3dModel-Animations/Hero1/Hero/tex/MAGE01_Normal.jpg.meta
+    - Assets/3dModel-Animations/Hero1/Hero/tex/MAGE01_Oclu.jpg.meta
+    - Assets/3dModel-Animations/Hero1/Hero/tex/MAGE01_Reflect.jpg.meta
+    - Assets/3dModel-Animations/Hero1/Hero/tex/MAGE01_Roughness.jpg.meta
+    - Assets/3dModel-Animations/Hero1/Hero/tex/MAGE02_Difuse.jpg.meta
+    - Assets/3dModel-Animations/Hero1/Hero/tex/MAGE02_Difuse.jpg.png.meta
+    - Assets/3dModel-Animations/Hero1/Hero/tex/MAGE02_Difuse.png.meta
+    - Assets/3dModel-Animations/Hero1/Hero/tex/MAGE02_Normal.jpg.meta
+    - Assets/3dModel-Animations/Hero1/Hero/tex/MAGE02_Oclu.jpg.meta
+    - Assets/3dModel-Animations/Hero1/Hero/tex/MAGE02_Reflect.jpg.meta
+    - Assets/3dModel-Animations/Hero1/Hero/tex/MAGE02_Roughness.jpg.meta
+    - Assets/3dModel-Animations/Hero1/Hero/tex/Misc.mat
+    - Assets/3dModel-Animations/Hero1/Hero/tex/Misc.mat.meta
+    - Assets/3dModel-Animations/Hero1/Idle Transformed.fbx.meta
+    - Assets/3dModel-Animations/Hero1/Kill.fbx.meta
+    - Assets/3dModel-Animations/Hero1/Looking Around.fbx.meta
+    - Assets/3dModel-Animations/Hero1/Power.fbx.meta
+    - Assets/3dModel-Animations/Hero1/Rise.fbx.meta
+    - Assets/3dModel-Animations/Hero1/Sitting 2.fbx.meta
+    - Assets/3dModel-Animations/Hero1/Stand Up.fbx.meta
+    - Assets/3dModel-Animations/Hero1/Transformation.fbx.meta
+    - Assets/3dModel-Animations/Hero1/hero basic.fbx.meta
+    - Assets/3dModel-Animations/Hero1/hero transformation.fbx.meta
+    - Assets/3dModel-Animations/Stand.fbx.meta
+    - Assets/3dModel-Animations/Standing Block Idle (1).fbx.meta
+    - Assets/3dModel-Animations/Water.meta
+    - Assets/3dModel-Animations/Water/Sitting 1.fbx.meta
+    - Assets/3dModel-Animations/Water/Water 1.meta
+    - Assets/3dModel-Animations/Water/Water 1/tex.meta
+    - Assets/3dModel-Animations/Water/Water 1/tex/Body.mat
+    - Assets/3dModel-Animations/Water/Water 1/tex/Body.mat.meta
+    - Assets/3dModel-Animations/Water/Water 1/tex/Eyebrows.mat
+    - Assets/3dModel-Animations/Water/Water 1/tex/Eyebrows.mat.meta
+    - Assets/3dModel-Animations/Water/Water 1/tex/Misc.mat
+    - Assets/3dModel-Animations/Water/Water 1/tex/Misc.mat.meta
+    - Assets/3dModel-Animations/Water/Water 1/tex/StanlistArmor_AO.tga.png.meta
+    - Assets/3dModel-Animations/Water/Water 1/tex/StanlistArmor_Albedo.tga.png.meta
+    - Assets/3dModel-Animations/Water/Water 1/tex/StanlistArmor_Normal.tga.png.meta
+    - Assets/3dModel-Animations/Water/Water 1/tex/StanlistArmor_Specular.tga.png.meta
+    - Assets/3dModel-Animations/Water/Water 1/tex/StanlistBody_Albedo.tga.png.meta
+    - Assets/3dModel-Animations/Water/Water 1/tex/StanlistBody_Ao.tga.png.meta
+    - Assets/3dModel-Animations/Water/Water 1/tex/StanlistBody_Normal.tga.png.meta
+    - Assets/3dModel-Animations/Water/Water 1/tex/StanlistBody_Specular.tga.png.meta
+    - Assets/3dModel-Animations/Water/Water 1/water.fbx.meta
+    - Assets/3dModel-Animations/Water/Water.controller
+    - Assets/3dModel-Animations/Water/Water.controller.meta
+    - Assets/3dModel-Animations/Water/water.fbx.meta
+    - Assets/3dModel-Animations/Wheelbarrow Idle.fbx.meta
+    - Assets/3dModel-Animations/Zombie Crawl.fbx.meta
+    - Assets/3dModel-Animations/new villain.meta
+    - Assets/3dModel-Animations/new villain/Block Finish.fbx.meta
+    - Assets/3dModel-Animations/new villain/Block.fbx.meta
+    - Assets/3dModel-Animations/new villain/Breathing Idle (1).fbx.meta
+    - Assets/3dModel-Animations/new villain/Crawl.fbx.meta
+    - Assets/3dModel-Animations/new villain/Die.fbx.meta
+    - Assets/3dModel-Animations/new villain/Falling front.fbx.meta
+    - Assets/3dModel-Animations/new villain/Fog.fbx.meta
+    - Assets/3dModel-Animations/new villain/Materials.meta
+    - Assets/3dModel-Animations/new villain/Materials/Material.mat
+    - Assets/3dModel-Animations/new villain/Materials/Material.mat.meta
+    - Assets/3dModel-Animations/new villain/Materials/Textures.meta
+    - Assets/3dModel-Animations/new villain/Materials/Textures/Material_a.tga.meta
+    - Assets/3dModel-Animations/new villain/Materials/Textures/Material_ao.tga.meta
+    - Assets/3dModel-Animations/new villain/Materials/Textures/Material_e.tga.meta
+    - Assets/3dModel-Animations/new villain/Materials/Textures/Material_h.tga.meta
+    - Assets/3dModel-Animations/new villain/Materials/Textures/Material_n.tga.meta
+    - Assets/3dModel-Animations/new villain/Materials/Textures/Material_s.tga.meta
+    - Assets/3dModel-Animations/new villain/Prepared.fbx.meta
+    - Assets/3dModel-Animations/new villain/Run.fbx.meta
+    - Assets/3dModel-Animations/new villain/Villain.controller
+    - Assets/3dModel-Animations/new villain/Villain.controller.meta
+    - Assets/3dModel-Animations/new villain/Walk.fbx.meta
+    - Assets/3dModel-Animations/new villain/textures.meta
+    - Assets/3dModel-Animations/new villain/textures/DarkGolem_albedo.jpg.meta
+    - Assets/3dModel-Animations/new villain/textures/Dark_emissive.jpg.meta
+    - Assets/3dModel-Animations/new villain/textures/New Material.mat
+    - Assets/3dModel-Animations/new villain/textures/New Material.mat.meta
+    - Assets/3dModel-Animations/new villain/textures/lambert1_AO.jpeg.meta
+    - Assets/3dModel-Animations/new villain/textures/lambert1_metallic.jpeg.meta
+    - Assets/3dModel-Animations/new villain/textures/lambert1_normal.png.meta
+    - Assets/3dModel-Animations/new villain/textures/lambert1_roughness.jpeg.meta
+    - Assets/3dModel-Animations/wind.meta
+    - Assets/3dModel-Animations/wind/Wind 1.meta
+    - Assets/3dModel-Animations/wind/Wind 1/tex.meta
+    - Assets/3dModel-Animations/wind/Wind 1/tex/Body.mat
+    - Assets/3dModel-Animations/wind/Wind 1/tex/Body.mat.meta
+    - Assets/3dModel-Animations/wind/Wind 1/tex/Book.mat
+    - Assets/3dModel-Animations/wind/Wind 1/tex/Book.mat.meta
+    - Assets/3dModel-Animations/wind/Wind 1/tex/JumanjiBody_AO1.tga.png.meta
+    - Assets/3dModel-Animations/wind/Wind 1/tex/JumanjiBody_Albedo.tga.png.meta
+    - Assets/3dModel-Animations/wind/Wind 1/tex/JumanjiBody_Normal.tga.png.meta
+    - Assets/3dModel-Animations/wind/Wind 1/tex/JumanjiBody_Specular.tga.png.meta
+    - Assets/3dModel-Animations/wind/Wind 1/tex/JumanjiStaff_AO.tga.png.meta
+    - Assets/3dModel-Animations/wind/Wind 1/tex/JumanjiStaff_Albedo.tga.png.meta
+    - Assets/3dModel-Animations/wind/Wind 1/tex/JumanjiStaff_Normal.tga.png.meta
+    - Assets/3dModel-Animations/wind/Wind 1/tex/JumanjiStaff_Specular.tga.png.meta
+    - Assets/3dModel-Animations/wind/Wind 1/wind.fbx.meta
+    - Assets/3dModel-Animations/wind/Wind.controller
+    - Assets/3dModel-Animations/wind/Wind.controller.meta
+    - Assets/3dModel-Animations/wind/wind.fbx.meta
+    - Assets/ImportedPackages/Asset Store/Floor textures/Environments/Ambient-Occlusion-Trees/Materials/Birch_bark.mat
+    - Assets/ImportedPackages/Asset Store/Floor textures/Environments/Ambient-Occlusion-Trees/Materials/Birch_leaves
+      1.mat
+    - Assets/ImportedPackages/Asset Store/Floor textures/Environments/Ambient-Occlusion-Trees/Materials/Birch_leaves.mat
+    - Assets/ImportedPackages/Asset Store/Floor textures/Environments/Ambient-Occlusion-Trees/Materials/Oak_bark.mat
+    - Assets/ImportedPackages/Asset Store/Floor textures/Environments/Ambient-Occlusion-Trees/Materials/Oak_leaves.mat
+    - Assets/ImportedPackages/Asset Store/Floor textures/Environments/Ambient-Occlusion-Trees/Materials/Tree_bark1.mat
+    - Assets/ImportedPackages/Asset Store/Floor textures/Environments/Ambient-Occlusion-Trees/Materials/Tree_leaves1.mat
+    - Assets/ImportedPackages/Asset Store/Floor textures/Environments/Materials/Plant.mat
+    - Assets/ImportedPackages/Asset Store/Floor textures/NewLayer 1.terrainlayer
+    - Assets/ImportedPackages/Asset Store/Lava/Materials/mtl_lava_distort.mat
+    - Assets/ImportedPackages/Water.meta
+    - Assets/ImportedPackages/Water/Materials.meta
+    - Assets/ImportedPackages/Water/Materials/Border.mat
+    - Assets/ImportedPackages/Water/Materials/Border.mat.meta
+    - Assets/ImportedPackages/Water/Materials/Lifesaver.mat
+    - Assets/ImportedPackages/Water/Materials/Lifesaver.mat.meta
+    - Assets/ImportedPackages/Water/Materials/Log.mat
+    - Assets/ImportedPackages/Water/Materials/Log.mat.meta
+    - Assets/ImportedPackages/Water/Materials/Rock.mat
+    - Assets/ImportedPackages/Water/Materials/Rock.mat.meta
+    - Assets/ImportedPackages/Water/Materials/Shoreline.mat
+    - Assets/ImportedPackages/Water/Materials/Shoreline.mat.meta
+    - Assets/ImportedPackages/Water/Materials/ToonWater.mat
+    - Assets/ImportedPackages/Water/Materials/ToonWater.mat.meta
+    - Assets/ImportedPackages/Water/Scripts.meta
+    - Assets/ImportedPackages/Water/Scripts/CameraDepthTextureMode.cs
+    - Assets/ImportedPackages/Water/Scripts/CameraDepthTextureMode.cs.meta
+    - Assets/ImportedPackages/Water/Scripts/NormalsReplacementShader.cs
+    - Assets/ImportedPackages/Water/Scripts/NormalsReplacementShader.cs.meta
+    - Assets/ImportedPackages/Water/Scripts/WaterBob.cs
+    - Assets/ImportedPackages/Water/Scripts/WaterBob.cs.meta
+    - Assets/ImportedPackages/Water/Shaders.meta
+    - Assets/ImportedPackages/Water/Shaders/HiddenNormalsTexture.shader
+    - Assets/ImportedPackages/Water/Shaders/HiddenNormalsTexture.shader.meta
+    - Assets/ImportedPackages/Water/Shaders/ToonLit.shader
+    - Assets/ImportedPackages/Water/Shaders/ToonLit.shader.meta
+    - Assets/ImportedPackages/Water/Shaders/ToonWater.shader
+    - Assets/ImportedPackages/Water/Shaders/ToonWater.shader.meta
+    - Assets/ImportedPackages/Water/Shaders/UnlitShadowCaster.shader
+    - Assets/ImportedPackages/Water/Shaders/UnlitShadowCaster.shader.meta
+    - Assets/ImportedPackages/Water/Textures.meta
+    - Assets/ImportedPackages/Water/Textures/Lifesaver.png.meta
+    - Assets/ImportedPackages/Water/Textures/Log.png.meta
+    - Assets/ImportedPackages/Water/Textures/PerlinNoise.png.meta
+    - Assets/ImportedPackages/Water/Textures/Shoreline.png.meta
+    - Assets/ImportedPackages/Water/Textures/WaterDistortion.png.meta
+    - Assets/Materials-Textures/Layers/NewLayer.terrainlayer
+    - Assets/Materials-Textures/New Material.mat
+    - Assets/Materials-Textures/New Material.mat.meta
+    - Assets/Materials-Textures/Particle Textures/Fog.mat
+    - Assets/Materials-Textures/Particle Textures/Fog.mat.meta
+    - Assets/Materials-Textures/Particle Textures/New Material.mat
+    - Assets/Materials-Textures/Particle Textures/New Material.mat.meta
+    - Assets/Materials-Textures/Particle Textures/PNG (Transparent)/StarSpike 1.png.meta
+    - Assets/Materials-Textures/Particle Textures/PNG (Transparent)/circle_01.png.meta
+    - Assets/Materials-Textures/Particle Textures/PNG (Transparent)/circle_03.png.meta
+    - Assets/Materials-Textures/Particle Textures/PNG (Transparent)/circle_05.png.meta
     - Assets/Materials-Textures/Particle Textures/PNG (Transparent)/portal1 1.png.meta
+    - Assets/Materials-Textures/Particle Textures/PNG (Transparent)/smoke_05.png.meta
+    - Assets/Materials-Textures/Particle Textures/PNG (Transparent)/star_02.png.meta
+    - Assets/Materials-Textures/Particle Textures/PNG (Transparent)/star_06.png.meta
+    - Assets/Materials-Textures/Particle Textures/PNG (Transparent)/star_09.png.meta
     - Assets/Materials-Textures/Particle Textures/Portal-1.mat
     - Assets/Materials-Textures/Particle Textures/Portal-1.mat.meta
     - Assets/Materials-Textures/Particle Textures/Portal-2.mat
     - Assets/Materials-Textures/Particle Textures/Portal-2.mat.meta
+    - Assets/Materials-Textures/Particle Textures/Portal.mat
+    - Assets/Materials-Textures/Particle Textures/Portal.mat.meta
+    - Assets/Materials-Textures/Particle Textures/Portal1.mat
+    - Assets/Materials-Textures/Particle Textures/Portal1.mat.meta
+    - Assets/Materials-Textures/Particle Textures/Portal2.mat
+    - Assets/Materials-Textures/Particle Textures/Portal2.mat.meta
+    - Assets/Materials-Textures/Particle Textures/Ray.mat
+    - Assets/Materials-Textures/Particle Textures/Ray.mat.meta
+    - Assets/Materials-Textures/Particle Textures/Transformation.mat
+    - Assets/Materials-Textures/Particle Textures/Transformation.mat.meta
+    - Assets/Materials-Textures/Skybox.meta
+    - Assets/Materials-Textures/Skybox/Skyblue.mat
+    - Assets/Materials-Textures/Skybox/Skyblue.mat.meta
+    - Assets/Materials-Textures/Textures/ShaderHandler.mat
+    - Assets/Materials-Textures/Textures/ShaderHandler.mat.meta
+    - Assets/Materials-Textures/portalOpening.mat
+    - "Assets/Scenes/AnnarrJ\xF6rd.unity"
+    - "Assets/Scenes/Gon\xE7alo - 02-06-2021.unity"
+    - "Assets/Scenes/Gon\xE7alo - 02-06-2021.unity.meta"
     - Assets/Scripts/Camera/CameraMove.cs
+    - Assets/Scripts/Character/ElementalMovement.cs
+    - Assets/Scripts/Character/SecondEnding.cs
+    - Assets/Scripts/Character/SecondEnding.cs.meta
+    - Assets/Scripts/Character/TestShader.cs.meta
+    - Assets/Scripts/Interaction/DataConnection.cs
+    - Assets/Scripts/VFX.meta
+    - Assets/Scripts/VFX/LightHandler.cs.meta
     - Assets/Scripts/VFX/PortalOpening.cs
+    - Assets/Scripts/VFX/PortalOpening.cs.meta
+    - Assets/Scripts/VFX/SkyboxHandler.cs.meta
+    - Assets/Scripts/VFX/VFX.cs.meta
+    - Assets/Shaders/DissolveMat.mat
+    - Assets/Shaders/Extrusion.shader.meta
+    - Assets/Shaders/GrayScale.meta
+    - Assets/Shaders/GrayScale/GrayScaleNormal.shader.meta
+    - Assets/Shaders/GrayScale/GrayScaleTerrain.shader
+    - Assets/Shaders/GrayScale/GrayScaleTerrain.shader.meta
+    - Assets/Shaders/GrayScale/GrayscaleTreeSoftOcclusionBark.shader
+    - Assets/Shaders/GrayScale/GrayscaleTreeSoftOcclusionBark.shader.meta
+    - Assets/Shaders/GrayScale/GrayscaleTreeSoftOcclusionLeaves.shader
+    - Assets/Shaders/GrayScale/GrayscaleTreeSoftOcclusionLeaves.shader.meta
+    - Assets/Shaders/GrayScale/New Material.mat
+    - Assets/Shaders/GrayScale/New Material.mat.meta
+    - Assets/Shaders/GrayScale/TerrainSplatmapCommon.cginc
+    - Assets/Shaders/GrayScale/TerrainSplatmapCommon.cginc.meta
+    - Assets/Shaders/GrayScale/UnityBuiltin2xTreeLibrary2.cginc
+    - Assets/Shaders/GrayScale/UnityBuiltin2xTreeLibrary2.cginc.meta
+    - Assets/Shaders/GrayScale/VertexLit.shader
+    - Assets/Shaders/GrayScale/VertexLit.shader.meta
+    - Assets/Shaders/GrayScale/WavingGrass.shader
+    - Assets/Shaders/GrayScale/WavingGrass.shader.meta
+    - Assets/Shaders/GrayScale/WavingGrassBillboard.shader
+    - Assets/Shaders/GrayScale/WavingGrassBillboard.shader.meta
+    - Assets/Sounds/Free Orchestral Music Pack.meta
+    - Assets/Sounds/Free Orchestral Music Pack/Aspiration Woods (Area Theme).wav.meta
+    - Assets/Sounds/Free Orchestral Music Pack/Final Struggle (Boss Theme).wav.meta
+    - Assets/Sounds/Free Orchestral Music Pack/Lost Kingdom (Piano Menu).wav.meta
+    - Assets/Sounds/SFX.meta
+    - Assets/Sounds/SFX/Portal Opening.wav.meta
+    - Assets/Sounds/SFX/Villain coming.aiff.meta
+    - Assets/test.meta
+    - Assets/test/MyObject.cs.meta
+    - Packages/manifest.json
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/QualitySettings.asset
     - 
-    m_Values: 0101010101010101
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

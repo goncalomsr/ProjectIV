@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.30872557, g: 0.32509044, b: 0.36316976, a: 1}
+  m_IndirectSpecularColor: {r: 0.3087264, g: 0.32509142, b: 0.3631713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -23638,6 +23638,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 235105af7079c5841a81462f48d26857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  secondElementalIndex: 0
+  secondEnding: 0
   elementalInfo:
   - Description: Wait
     behavior: 0
@@ -23649,6 +23651,11 @@ MonoBehaviour:
     waitTime: 10
     anim: {fileID: 750732587}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Waiting black screen
     behavior: 0
     startPostion: {fileID: 1404127612}
@@ -23659,6 +23666,11 @@ MonoBehaviour:
     waitTime: 8
     anim: {fileID: 750732587}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Initial walking
     behavior: 1
     startPostion: {fileID: 1404127612}
@@ -23669,6 +23681,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 750732587}
     anima: Walk
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Waiting
     behavior: 0
     startPostion: {fileID: 1258585042}
@@ -23679,6 +23696,11 @@ MonoBehaviour:
     waitTime: 35
     anim: {fileID: 750732587}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Eyes
     behavior: 0
     startPostion: {fileID: 1258585042}
@@ -23689,6 +23711,11 @@ MonoBehaviour:
     waitTime: 8
     anim: {fileID: 750732587}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Run to meeting
     behavior: 1
     startPostion: {fileID: 345356018}
@@ -23699,6 +23726,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 750732587}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Meeting
     behavior: 0
     startPostion: {fileID: 1461354130}
@@ -23709,6 +23741,11 @@ MonoBehaviour:
     waitTime: 3
     anim: {fileID: 750732587}
     anima: Yell
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Forest run
     behavior: 1
     startPostion: {fileID: 1461354130}
@@ -23719,6 +23756,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 750732587}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Waiting
     behavior: 0
     startPostion: {fileID: 413310280}
@@ -23729,6 +23771,11 @@ MonoBehaviour:
     waitTime: 11
     anim: {fileID: 750732587}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Run to BS position
     behavior: 1
     startPostion: {fileID: 790165592}
@@ -23739,6 +23786,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 750732587}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Prepared
     behavior: 0
     startPostion: {fileID: 930721666}
@@ -23749,6 +23801,11 @@ MonoBehaviour:
     waitTime: 14
     anim: {fileID: 750732587}
     anima: Prepared
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Looking Fog
     behavior: 0
     startPostion: {fileID: 930721666}
@@ -23759,6 +23816,11 @@ MonoBehaviour:
     waitTime: 5
     anim: {fileID: 750732587}
     anima: React
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Fog
     behavior: 0
     startPostion: {fileID: 930721666}
@@ -23769,6 +23831,11 @@ MonoBehaviour:
     waitTime: 5
     anim: {fileID: 750732587}
     anima: Suffer
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Death
     behavior: 0
     startPostion: {fileID: 930721666}
@@ -23779,6 +23846,12 @@ MonoBehaviour:
     waitTime: 120
     anim: {fileID: 750732587}
     anima: Dead
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
+  offset: {x: 0, y: 0, z: 0}
 --- !u!1 &752220320
 GameObject:
   m_ObjectHideFlags: 0
@@ -24311,6 +24384,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 235105af7079c5841a81462f48d26857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  secondElementalIndex: 0
+  secondEnding: 0
   elementalInfo:
   - Description: wait
     behavior: 0
@@ -24322,6 +24397,11 @@ MonoBehaviour:
     waitTime: 10
     anim: {fileID: 766202230}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Forest lay down
     behavior: 0
     startPostion: {fileID: 501492751}
@@ -24332,6 +24412,11 @@ MonoBehaviour:
     waitTime: 50
     anim: {fileID: 766202230}
     anima: Sitting
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Stand Up
     behavior: 0
     startPostion: {fileID: 501492751}
@@ -24342,6 +24427,11 @@ MonoBehaviour:
     waitTime: 2
     anim: {fileID: 766202230}
     anima: Standing
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Sky Changing
     behavior: 0
     startPostion: {fileID: 501492751}
@@ -24352,6 +24442,11 @@ MonoBehaviour:
     waitTime: 3
     anim: {fileID: 766202230}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Forest Run
     behavior: 0
     startPostion: {fileID: 501492751}
@@ -24362,6 +24457,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 766202230}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Waiting
     behavior: 0
     startPostion: {fileID: 609864901}
@@ -24372,6 +24472,11 @@ MonoBehaviour:
     waitTime: 9
     anim: {fileID: 766202230}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Arrives to BS
     behavior: 1
     startPostion: {fileID: 206177522}
@@ -24382,6 +24487,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 766202230}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Sees villain
     behavior: 0
     startPostion: {fileID: 660391497}
@@ -24392,6 +24502,11 @@ MonoBehaviour:
     waitTime: 2
     anim: {fileID: 766202230}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Walks to face Villain
     behavior: 1
     startPostion: {fileID: 660391497}
@@ -24402,6 +24517,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 766202230}
     anima: Walk
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Seeing Villain
     behavior: 0
     startPostion: {fileID: 1475854355}
@@ -24412,6 +24532,11 @@ MonoBehaviour:
     waitTime: 33
     anim: {fileID: 766202230}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Looking arround
     behavior: 0
     startPostion: {fileID: 1475854355}
@@ -24422,6 +24547,11 @@ MonoBehaviour:
     waitTime: 6.5
     anim: {fileID: 766202230}
     anima: Looking
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: transform
     behavior: 0
     startPostion: {fileID: 1475854355}
@@ -24432,6 +24562,11 @@ MonoBehaviour:
     waitTime: 2
     anim: {fileID: 766202230}
     anima: Power
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Run for the kill
     behavior: 1
     startPostion: {fileID: 1475854355}
@@ -24442,6 +24577,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 766202230}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Get the kill
     behavior: 0
     startPostion: {fileID: 1102088066}
@@ -24452,6 +24592,11 @@ MonoBehaviour:
     waitTime: 12.03
     anim: {fileID: 766202230}
     anima: JumpKill
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: villain dies
     behavior: 0
     startPostion: {fileID: 726756242}
@@ -24462,6 +24607,11 @@ MonoBehaviour:
     waitTime: 30
     anim: {fileID: 766202230}
     anima: 
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: End
     behavior: 0
     startPostion: {fileID: 1102088066}
@@ -24472,6 +24622,12 @@ MonoBehaviour:
     waitTime: 30
     anim: {fileID: 766202230}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
+  offset: {x: 0, y: 0, z: 0}
 --- !u!1 &773449783
 GameObject:
   m_ObjectHideFlags: 0
@@ -30015,6 +30171,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 235105af7079c5841a81462f48d26857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  secondElementalIndex: 0
+  secondEnding: 0
   elementalInfo:
   - Description: Wait
     behavior: 0
@@ -30026,6 +30184,11 @@ MonoBehaviour:
     waitTime: 10
     anim: {fileID: 831030101}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Waiting Black Screen
     behavior: 0
     startPostion: {fileID: 1131824461}
@@ -30036,6 +30199,11 @@ MonoBehaviour:
     waitTime: 16
     anim: {fileID: 831030101}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Sitting on Roof
     behavior: 0
     startPostion: {fileID: 1131824461}
@@ -30046,6 +30214,11 @@ MonoBehaviour:
     waitTime: 6
     anim: {fileID: 831030101}
     anima: Sitting
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Waiting
     behavior: 0
     startPostion: {fileID: 1131824461}
@@ -30056,6 +30229,11 @@ MonoBehaviour:
     waitTime: 28
     anim: {fileID: 831030101}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Eyes
     behavior: 0
     startPostion: {fileID: 1131824461}
@@ -30066,6 +30244,11 @@ MonoBehaviour:
     waitTime: 8
     anim: {fileID: 831030101}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Run to meeting
     behavior: 1
     startPostion: {fileID: 498737932}
@@ -30076,6 +30259,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 831030101}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Meeting
     behavior: 0
     startPostion: {fileID: 1767395310}
@@ -30086,6 +30274,11 @@ MonoBehaviour:
     waitTime: 3
     anim: {fileID: 7985676243116912656}
     anima: Yell
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Forest Run
     behavior: 1
     startPostion: {fileID: 1767395310}
@@ -30096,6 +30289,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 831030101}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Wating
     behavior: 0
     startPostion: {fileID: 1716380223}
@@ -30106,6 +30304,11 @@ MonoBehaviour:
     waitTime: 12.6
     anim: {fileID: 831030101}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Run to BS position
     behavior: 1
     startPostion: {fileID: 1069043917}
@@ -30116,6 +30319,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 831030101}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Prepared
     behavior: 0
     startPostion: {fileID: 952082452}
@@ -30126,6 +30334,11 @@ MonoBehaviour:
     waitTime: 6
     anim: {fileID: 831030101}
     anima: Prepared
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Prepare to run
     behavior: 0
     startPostion: {fileID: 952082452}
@@ -30136,6 +30349,11 @@ MonoBehaviour:
     waitTime: 3
     anim: {fileID: 831030101}
     anima: Taunt
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Run Towards Villain
     behavior: 1
     startPostion: {fileID: 952082452}
@@ -30146,6 +30364,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 831030101}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Fly
     behavior: 1
     startPostion: {fileID: 1313369299}
@@ -30156,6 +30379,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 831030101}
     anima: Fly
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Dead
     behavior: 0
     startPostion: {fileID: 219582385}
@@ -30166,6 +30394,12 @@ MonoBehaviour:
     waitTime: 30
     anim: {fileID: 831030101}
     anima: Dead
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
+  offset: {x: 0, y: 0, z: 0}
 --- !u!1 &839274558
 GameObject:
   m_ObjectHideFlags: 0
@@ -30805,6 +31039,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48ee8306696a69046a27d321f815b12c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  secondEnding: 0
+  secondCameraIndex: 0
   cameraInfo:
   - Description: Portal Opening
     behavior: 0
@@ -39135,6 +39371,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f863fec2a1ff5443aaa8721f8d92b8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EM: {fileID: 0}
+  CM: {fileID: 0}
   Characters: []
   Camera: {fileID: 0}
   ending: 0
@@ -39548,6 +39786,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 235105af7079c5841a81462f48d26857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  secondElementalIndex: 0
+  secondEnding: 0
   elementalInfo:
   - Description: Wait
     behavior: 0
@@ -39559,6 +39799,11 @@ MonoBehaviour:
     waitTime: 10
     anim: {fileID: 1110499232}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Waiting in Other World
     behavior: 0
     startPostion: {fileID: 1960147101}
@@ -39569,6 +39814,11 @@ MonoBehaviour:
     waitTime: 37
     anim: {fileID: 1110499232}
     anima: Stand
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Walk Towards Heores
     behavior: 1
     startPostion: {fileID: 1960147101}
@@ -39579,6 +39829,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 1110499232}
     anima: Walk
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Wait for heroes
     behavior: 0
     startPostion: {fileID: 1319193662}
@@ -39589,6 +39844,11 @@ MonoBehaviour:
     waitTime: 44.5
     anim: {fileID: 1110499232}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Fog
     behavior: 0
     startPostion: {fileID: 1319193662}
@@ -39599,6 +39859,11 @@ MonoBehaviour:
     waitTime: 3
     anim: {fileID: 1110499232}
     anima: Fog
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Fight Hero
     behavior: 0
     startPostion: {fileID: 1319193662}
@@ -39609,6 +39874,11 @@ MonoBehaviour:
     waitTime: 26.5
     anim: {fileID: 1110499232}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Death
     behavior: 0
     startPostion: {fileID: 1319193662}
@@ -39619,6 +39889,12 @@ MonoBehaviour:
     waitTime: 30
     anim: {fileID: 1110499232}
     anima: Dead
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1110499236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40785,6 +41061,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 235105af7079c5841a81462f48d26857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  secondElementalIndex: 0
+  secondEnding: 0
   elementalInfo:
   - Description: wait
     behavior: 0
@@ -40796,6 +41074,11 @@ MonoBehaviour:
     waitTime: 10
     anim: {fileID: 1202361895}
     anima: Dead
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Waiting Black Screen
     behavior: 0
     startPostion: {fileID: 1446397300}
@@ -40806,6 +41089,11 @@ MonoBehaviour:
     waitTime: 12
     anim: {fileID: 1202361895}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Sitting in Lake
     behavior: 0
     startPostion: {fileID: 1446397300}
@@ -40816,6 +41104,11 @@ MonoBehaviour:
     waitTime: 6
     anim: {fileID: 1202361895}
     anima: Sitting
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Waiting
     behavior: 0
     startPostion: {fileID: 1446397300}
@@ -40826,6 +41119,11 @@ MonoBehaviour:
     waitTime: 31
     anim: {fileID: 1202361895}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Eyes
     behavior: 0
     startPostion: {fileID: 1446397300}
@@ -40836,6 +41134,11 @@ MonoBehaviour:
     waitTime: 8
     anim: {fileID: 1202361895}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Run to meeting
     behavior: 1
     startPostion: {fileID: 744091599}
@@ -40846,6 +41149,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 1202361895}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Meeting
     behavior: 0
     startPostion: {fileID: 440566728}
@@ -40856,6 +41164,11 @@ MonoBehaviour:
     waitTime: 3
     anim: {fileID: 1202361895}
     anima: Yell
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Forest run
     behavior: 1
     startPostion: {fileID: 440566728}
@@ -40866,6 +41179,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 1202361895}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Waiting
     behavior: 0
     startPostion: {fileID: 1181454557}
@@ -40876,6 +41194,11 @@ MonoBehaviour:
     waitTime: 12.8
     anim: {fileID: 1202361895}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Run to BS position
     behavior: 1
     startPostion: {fileID: 867723051}
@@ -40886,6 +41209,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 1202361895}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Prepared
     behavior: 0
     startPostion: {fileID: 577534345}
@@ -40896,6 +41224,11 @@ MonoBehaviour:
     waitTime: 14
     anim: {fileID: 1202361895}
     anima: Prepared
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Looking Fog
     behavior: 0
     startPostion: {fileID: 577534345}
@@ -40906,6 +41239,11 @@ MonoBehaviour:
     waitTime: 5
     anim: {fileID: 1202361895}
     anima: React
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Fog
     behavior: 0
     startPostion: {fileID: 577534345}
@@ -40916,6 +41254,11 @@ MonoBehaviour:
     waitTime: 5
     anim: {fileID: 1202361895}
     anima: Suffer
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Death
     behavior: 0
     startPostion: {fileID: 577534345}
@@ -40926,6 +41269,12 @@ MonoBehaviour:
     waitTime: 120
     anim: {fileID: 1202361895}
     anima: Dead
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
+  offset: {x: 0, y: 0, z: 0}
 --- !u!1001 &1207298890
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57743,6 +58092,7 @@ GameObject:
   - component: {fileID: 76646924704984827}
   - component: {fileID: 76646924704984826}
   - component: {fileID: 76646924704984825}
+  - component: {fileID: 76646924704984829}
   m_Layer: 0
   m_Name: fire
   m_TagString: Untagged
@@ -57810,6 +58160,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 235105af7079c5841a81462f48d26857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  secondElementalIndex: 0
+  secondEnding: 0
   elementalInfo:
   - Description: Waiting black screen
     behavior: 0
@@ -57821,6 +58173,11 @@ MonoBehaviour:
     waitTime: 10
     anim: {fileID: 76646924704984825}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Initial walking
     behavior: 1
     startPostion: {fileID: 1193384307}
@@ -57831,6 +58188,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 76646924704984825}
     anima: Walk
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Waiting for scene
     behavior: 0
     startPostion: {fileID: 1008100925}
@@ -57841,6 +58203,11 @@ MonoBehaviour:
     waitTime: 40
     anim: {fileID: 76646924704984825}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Eyes
     behavior: 0
     startPostion: {fileID: 1008100925}
@@ -57851,6 +58218,11 @@ MonoBehaviour:
     waitTime: 8
     anim: {fileID: 76646924704984825}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Run to meeting
     behavior: 1
     startPostion: {fileID: 1798561009}
@@ -57861,6 +58233,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 76646924704984825}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Meeting
     behavior: 0
     startPostion: {fileID: 1356776898}
@@ -57871,6 +58248,11 @@ MonoBehaviour:
     waitTime: 3
     anim: {fileID: 76646924704984825}
     anima: Yell
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Forest run
     behavior: 1
     startPostion: {fileID: 1356776898}
@@ -57881,6 +58263,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 76646924704984825}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Waiting
     behavior: 0
     startPostion: {fileID: 561743239}
@@ -57891,6 +58278,11 @@ MonoBehaviour:
     waitTime: 11.5
     anim: {fileID: 76646924704984825}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Run to BS position
     behavior: 1
     startPostion: {fileID: 102101176}
@@ -57901,6 +58293,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 76646924704984825}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Prepared
     behavior: 0
     startPostion: {fileID: 1965059455}
@@ -57911,6 +58308,11 @@ MonoBehaviour:
     waitTime: 14
     anim: {fileID: 76646924704984825}
     anima: Prepared
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: looking Fog
     behavior: 0
     startPostion: {fileID: 1965059455}
@@ -57921,6 +58323,11 @@ MonoBehaviour:
     waitTime: 5
     anim: {fileID: 76646924704984825}
     anima: React
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Fog
     behavior: 0
     startPostion: {fileID: 1965059455}
@@ -57931,6 +58338,11 @@ MonoBehaviour:
     waitTime: 5
     anim: {fileID: 76646924704984825}
     anima: Suffer
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Death
     behavior: 0
     startPostion: {fileID: 1965059455}
@@ -57941,6 +58353,108 @@ MonoBehaviour:
     waitTime: 120
     anim: {fileID: 76646924704984825}
     anima: Dead
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
+  offset: {x: 0, y: 0, z: 0}
+--- !u!82 &76646924704984829
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76646924704984824}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &79619080043844272
 GameObject:
   m_ObjectHideFlags: 0
@@ -62226,6 +62740,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 235105af7079c5841a81462f48d26857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  secondElementalIndex: 0
+  secondEnding: 0
   elementalInfo:
   - Description: Wait
     behavior: 0
@@ -62237,6 +62753,11 @@ MonoBehaviour:
     waitTime: 10
     anim: {fileID: 1057878953458580703}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Waiting black screen
     behavior: 0
     startPostion: {fileID: 1193384307}
@@ -62247,6 +62768,11 @@ MonoBehaviour:
     waitTime: 5
     anim: {fileID: 1057878953458580703}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Initial walking
     behavior: 1
     startPostion: {fileID: 1193384307}
@@ -62257,6 +62783,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 1057878953458580703}
     anima: Walk
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Waiting for scene
     behavior: 0
     startPostion: {fileID: 1008100925}
@@ -62267,6 +62798,11 @@ MonoBehaviour:
     waitTime: 40
     anim: {fileID: 1057878953458580703}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Eyes
     behavior: 0
     startPostion: {fileID: 1008100925}
@@ -62277,6 +62813,11 @@ MonoBehaviour:
     waitTime: 8
     anim: {fileID: 1057878953458580703}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Run to meeting
     behavior: 1
     startPostion: {fileID: 1798561009}
@@ -62287,6 +62828,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 1057878953458580703}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Meeting
     behavior: 0
     startPostion: {fileID: 1356776898}
@@ -62297,6 +62843,11 @@ MonoBehaviour:
     waitTime: 3
     anim: {fileID: 1057878953458580703}
     anima: Yell
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Forest run
     behavior: 1
     startPostion: {fileID: 1356776898}
@@ -62307,6 +62858,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 1057878953458580703}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Waiting
     behavior: 0
     startPostion: {fileID: 561743239}
@@ -62317,6 +62873,11 @@ MonoBehaviour:
     waitTime: 11.5
     anim: {fileID: 1057878953458580703}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Run to BS position
     behavior: 1
     startPostion: {fileID: 102101176}
@@ -62327,6 +62888,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 1057878953458580703}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Prepared
     behavior: 0
     startPostion: {fileID: 1965059455}
@@ -62337,6 +62903,11 @@ MonoBehaviour:
     waitTime: 14
     anim: {fileID: 1057878953458580703}
     anima: Prepared
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: looking Fog
     behavior: 0
     startPostion: {fileID: 1965059455}
@@ -62347,6 +62918,11 @@ MonoBehaviour:
     waitTime: 5
     anim: {fileID: 1057878953458580703}
     anima: React
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Fog
     behavior: 0
     startPostion: {fileID: 1965059455}
@@ -62357,6 +62933,11 @@ MonoBehaviour:
     waitTime: 5
     anim: {fileID: 1057878953458580703}
     anima: Suffer
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Death
     behavior: 0
     startPostion: {fileID: 1965059455}
@@ -62367,6 +62948,12 @@ MonoBehaviour:
     waitTime: 120
     anim: {fileID: 1057878953458580703}
     anima: Dead
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
+  offset: {x: 0, y: 0, z: 0}
 --- !u!95 &1057878953458580703
 Animator:
   serializedVersion: 3
@@ -77317,6 +77904,7 @@ GameObject:
   - component: {fileID: 3280096266063391416}
   - component: {fileID: 3280096266063391415}
   - component: {fileID: 3280096266063391414}
+  - component: {fileID: 3280096266063391418}
   m_Layer: 0
   m_Name: hero transformation
   m_TagString: Untagged
@@ -77384,6 +77972,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 235105af7079c5841a81462f48d26857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  secondElementalIndex: 0
+  secondEnding: 0
   elementalInfo:
   - Description: Transformation
     behavior: 0
@@ -77395,6 +77985,11 @@ MonoBehaviour:
     waitTime: 4
     anim: {fileID: 3280096266063391414}
     anima: Idle2
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Run to kill
     behavior: 1
     startPostion: {fileID: 1475854355}
@@ -77405,6 +78000,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 3280096266063391414}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Kill
     behavior: 0
     startPostion: {fileID: 1102088066}
@@ -77415,6 +78015,11 @@ MonoBehaviour:
     waitTime: 6.5
     anim: {fileID: 3280096266063391414}
     anima: Kill
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Villain Dies
     behavior: 0
     startPostion: {fileID: 726756242}
@@ -77425,6 +78030,11 @@ MonoBehaviour:
     waitTime: 10
     anim: {fileID: 3280096266063391414}
     anima: Rise
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Villain Dies
     behavior: 0
     startPostion: {fileID: 726756242}
@@ -77435,6 +78045,108 @@ MonoBehaviour:
     waitTime: 10
     anim: {fileID: 3280096266063391414}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
+  offset: {x: 0, y: 0, z: 0}
+--- !u!82 &3280096266063391418
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3280096266063391413}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &3285123992328598811
 Transform:
   m_ObjectHideFlags: 0
@@ -93296,6 +94008,7 @@ GameObject:
   - component: {fileID: 4587294687807108113}
   - component: {fileID: 4587294687807108112}
   - component: {fileID: 4587294687807108110}
+  - component: {fileID: 4587294687807108114}
   m_Layer: 0
   m_Name: hero basic
   m_TagString: Untagged
@@ -93331,6 +94044,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 235105af7079c5841a81462f48d26857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  secondElementalIndex: 0
+  secondEnding: 0
   elementalInfo:
   - Description: Forest lay down
     behavior: 0
@@ -93342,6 +94057,11 @@ MonoBehaviour:
     waitTime: 55
     anim: {fileID: 4587294687807108112}
     anima: Sitting
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Stand Up
     behavior: 0
     startPostion: {fileID: 501492751}
@@ -93352,6 +94072,11 @@ MonoBehaviour:
     waitTime: 2
     anim: {fileID: 4587294687807108112}
     anima: Standing
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Sky Changing
     behavior: 0
     startPostion: {fileID: 501492751}
@@ -93362,6 +94087,11 @@ MonoBehaviour:
     waitTime: 3
     anim: {fileID: 4587294687807108112}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Forest Run
     behavior: 1
     startPostion: {fileID: 501492751}
@@ -93372,6 +94102,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 4587294687807108112}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Waiting
     behavior: 0
     startPostion: {fileID: 609864901}
@@ -93382,6 +94117,11 @@ MonoBehaviour:
     waitTime: 9
     anim: {fileID: 4587294687807108112}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Arrives to BS
     behavior: 1
     startPostion: {fileID: 206177522}
@@ -93392,6 +94132,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 4587294687807108112}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Sees villain
     behavior: 0
     startPostion: {fileID: 660391497}
@@ -93402,6 +94147,11 @@ MonoBehaviour:
     waitTime: 2
     anim: {fileID: 4587294687807108112}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Walks to face Villain
     behavior: 1
     startPostion: {fileID: 660391497}
@@ -93412,6 +94162,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 4587294687807108112}
     anima: Walk
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Seeing Villain
     behavior: 0
     startPostion: {fileID: 1475854355}
@@ -93422,6 +94177,11 @@ MonoBehaviour:
     waitTime: 28
     anim: {fileID: 4587294687807108112}
     anima: Prepared
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Looking arround
     behavior: 0
     startPostion: {fileID: 1475854355}
@@ -93432,6 +94192,11 @@ MonoBehaviour:
     waitTime: 6.5
     anim: {fileID: 4587294687807108112}
     anima: Looking
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: transform
     behavior: 0
     startPostion: {fileID: 1475854355}
@@ -93442,6 +94207,11 @@ MonoBehaviour:
     waitTime: 2
     anim: {fileID: 4587294687807108112}
     anima: Transformation
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: 
     behavior: 0
     startPostion: {fileID: 1475854355}
@@ -93452,6 +94222,11 @@ MonoBehaviour:
     waitTime: 1
     anim: {fileID: 4587294687807108112}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: 
     behavior: 0
     startPostion: {fileID: 1475854355}
@@ -93462,6 +94237,11 @@ MonoBehaviour:
     waitTime: 2
     anim: {fileID: 4587294687807108112}
     anima: Prepared
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Ray
     behavior: 0
     startPostion: {fileID: 1475854355}
@@ -93472,6 +94252,11 @@ MonoBehaviour:
     waitTime: 3.5
     anim: {fileID: 4587294687807108112}
     anima: Power
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Idle
     behavior: 0
     startPostion: {fileID: 1475854355}
@@ -93482,6 +94267,11 @@ MonoBehaviour:
     waitTime: 2
     anim: {fileID: 4587294687807108112}
     anima: Prepared
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Killing
     behavior: 0
     startPostion: {fileID: 1475854355}
@@ -93492,6 +94282,11 @@ MonoBehaviour:
     waitTime: 4
     anim: {fileID: 4587294687807108112}
     anima: Power
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: end
     behavior: 0
     startPostion: {fileID: 1475854355}
@@ -93502,6 +94297,12 @@ MonoBehaviour:
     waitTime: 50
     anim: {fileID: 4587294687807108112}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
+  offset: {x: 0, y: 0, z: 0}
 --- !u!95 &4587294687807108112
 Animator:
   serializedVersion: 3
@@ -93534,6 +94335,102 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.1505127, y: 4.7997875, z: 1}
   m_Center: {x: 0.078186035, y: 2.280591, z: 0}
+--- !u!82 &4587294687807108114
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4587294687807108109}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &4588103230650408058
 GameObject:
   m_ObjectHideFlags: 0
@@ -108115,6 +109012,7 @@ GameObject:
   - component: {fileID: 7985676243116912658}
   - component: {fileID: 7985676243116912657}
   - component: {fileID: 7985676243116912656}
+  - component: {fileID: 7985676243116912660}
   m_Layer: 0
   m_Name: earth
   m_TagString: Untagged
@@ -108182,6 +109080,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 235105af7079c5841a81462f48d26857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  secondElementalIndex: 0
+  secondEnding: 0
   elementalInfo:
   - Description: Sitting on Roof
     behavior: 0
@@ -108193,6 +109093,11 @@ MonoBehaviour:
     waitTime: 54
     anim: {fileID: 7985676243116912656}
     anima: Sitting
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Eyes
     behavior: 0
     startPostion: {fileID: 1131824461}
@@ -108203,6 +109108,11 @@ MonoBehaviour:
     waitTime: 8
     anim: {fileID: 7985676243116912656}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Run to meeting
     behavior: 1
     startPostion: {fileID: 498737932}
@@ -108213,6 +109123,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 7985676243116912656}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Meeting
     behavior: 0
     startPostion: {fileID: 1767395310}
@@ -108223,6 +109138,11 @@ MonoBehaviour:
     waitTime: 3
     anim: {fileID: 7985676243116912656}
     anima: Yell
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Forest Run
     behavior: 1
     startPostion: {fileID: 1767395310}
@@ -108233,6 +109153,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 7985676243116912656}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Wating
     behavior: 0
     startPostion: {fileID: 1716380223}
@@ -108243,6 +109168,11 @@ MonoBehaviour:
     waitTime: 12.6
     anim: {fileID: 7985676243116912656}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Run to BS position
     behavior: 1
     startPostion: {fileID: 1069043917}
@@ -108253,6 +109183,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 7985676243116912656}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Prepared
     behavior: 0
     startPostion: {fileID: 952082452}
@@ -108263,6 +109198,11 @@ MonoBehaviour:
     waitTime: 3
     anim: {fileID: 7985676243116912656}
     anima: Prepared
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Prepare to run
     behavior: 0
     startPostion: {fileID: 952082452}
@@ -108273,6 +109213,11 @@ MonoBehaviour:
     waitTime: 3
     anim: {fileID: 7985676243116912656}
     anima: Taunt
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Run Towards Villain
     behavior: 1
     startPostion: {fileID: 952082452}
@@ -108283,6 +109228,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 7985676243116912656}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Fly
     behavior: 1
     startPostion: {fileID: 1313369299}
@@ -108293,6 +109243,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 7985676243116912656}
     anima: Fly
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Dead
     behavior: 0
     startPostion: {fileID: 219582385}
@@ -108303,6 +109258,108 @@ MonoBehaviour:
     waitTime: 30
     anim: {fileID: 7985676243116912656}
     anima: Dead
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
+  offset: {x: 0, y: 0, z: 0}
+--- !u!82 &7985676243116912660
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7985676243116912655}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &7986152155477928259
 Transform:
   m_ObjectHideFlags: 0
@@ -108451,6 +109508,7 @@ GameObject:
   - component: {fileID: 8012870823268794362}
   - component: {fileID: 8012870823268794361}
   - component: {fileID: 8012870823268794360}
+  - component: {fileID: 8012870823268794364}
   m_Layer: 0
   m_Name: wind
   m_TagString: Untagged
@@ -108518,6 +109576,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 235105af7079c5841a81462f48d26857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  secondElementalIndex: 0
+  secondEnding: 0
   elementalInfo:
   - Description: Wait
     behavior: 0
@@ -108529,6 +109589,11 @@ MonoBehaviour:
     waitTime: 14
     anim: {fileID: 8012870823268794362}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Initial walking
     behavior: 1
     startPostion: {fileID: 1404127612}
@@ -108539,6 +109604,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 8012870823268794362}
     anima: Walk
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Waiting
     behavior: 0
     startPostion: {fileID: 1258585042}
@@ -108549,6 +109619,11 @@ MonoBehaviour:
     waitTime: 33
     anim: {fileID: 8012870823268794362}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Eyes
     behavior: 0
     startPostion: {fileID: 1258585042}
@@ -108559,6 +109634,11 @@ MonoBehaviour:
     waitTime: 8
     anim: {fileID: 8012870823268794362}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Run to meeting
     behavior: 1
     startPostion: {fileID: 345356018}
@@ -108569,6 +109649,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 8012870823268794362}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Meeting
     behavior: 0
     startPostion: {fileID: 1461354130}
@@ -108579,6 +109664,11 @@ MonoBehaviour:
     waitTime: 3
     anim: {fileID: 8012870823268794362}
     anima: Yell
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Forest run
     behavior: 1
     startPostion: {fileID: 1461354130}
@@ -108589,6 +109679,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 8012870823268794362}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Waiting
     behavior: 0
     startPostion: {fileID: 413310280}
@@ -108599,6 +109694,11 @@ MonoBehaviour:
     waitTime: 11
     anim: {fileID: 8012870823268794362}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Run to BS position
     behavior: 1
     startPostion: {fileID: 790165592}
@@ -108609,6 +109709,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 8012870823268794362}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Prepared
     behavior: 0
     startPostion: {fileID: 930721666}
@@ -108619,6 +109724,11 @@ MonoBehaviour:
     waitTime: 14
     anim: {fileID: 8012870823268794362}
     anima: Prepared
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Looking Fog
     behavior: 0
     startPostion: {fileID: 930721666}
@@ -108629,6 +109739,11 @@ MonoBehaviour:
     waitTime: 5
     anim: {fileID: 8012870823268794362}
     anima: React
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Fog
     behavior: 0
     startPostion: {fileID: 930721666}
@@ -108639,6 +109754,11 @@ MonoBehaviour:
     waitTime: 5
     anim: {fileID: 8012870823268794362}
     anima: Suffer
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Death
     behavior: 0
     startPostion: {fileID: 930721666}
@@ -108649,6 +109769,108 @@ MonoBehaviour:
     waitTime: 120
     anim: {fileID: 8012870823268794362}
     anima: Dead
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
+  offset: {x: 0, y: 0, z: 0}
+--- !u!82 &8012870823268794364
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8012870823268794359}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &8013203285204170475
 Transform:
   m_ObjectHideFlags: 0
@@ -110715,6 +111937,7 @@ GameObject:
   - component: {fileID: 8474074564460024368}
   - component: {fileID: 8474074564460024367}
   - component: {fileID: 8474074564460024371}
+  - component: {fileID: 8474074564460024372}
   m_Layer: 0
   m_Name: Villain
   m_TagString: Untagged
@@ -110782,6 +112005,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 235105af7079c5841a81462f48d26857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  secondElementalIndex: 0
+  secondEnding: 0
   elementalInfo:
   - Description: Waiting in Other World
     behavior: 0
@@ -110793,6 +112018,11 @@ MonoBehaviour:
     waitTime: 43
     anim: {fileID: 8474074564460024367}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Walk Towards Heores
     behavior: 1
     startPostion: {fileID: 1960147101}
@@ -110803,6 +112033,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 8474074564460024367}
     anima: Walk
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Wait for heroes
     behavior: 0
     startPostion: {fileID: 1319193662}
@@ -110813,6 +112048,11 @@ MonoBehaviour:
     waitTime: 39
     anim: {fileID: 8474074564460024367}
     anima: Prepared
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Fog
     behavior: 0
     startPostion: {fileID: 1319193662}
@@ -110823,6 +112063,11 @@ MonoBehaviour:
     waitTime: 3
     anim: {fileID: 8474074564460024367}
     anima: Fog
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Fight Hero
     behavior: 0
     startPostion: {fileID: 1319193662}
@@ -110833,6 +112078,11 @@ MonoBehaviour:
     waitTime: 22
     anim: {fileID: 8474074564460024367}
     anima: Prepared
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Run to hero
     behavior: 1
     startPostion: {fileID: 1319193662}
@@ -110843,6 +112093,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 8474074564460024367}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: block
     behavior: 1
     startPostion: {fileID: 446256275}
@@ -110853,6 +112108,11 @@ MonoBehaviour:
     waitTime: 2
     anim: {fileID: 8474074564460024367}
     anima: Block
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: stop block
     behavior: 0
     startPostion: {fileID: 642962838}
@@ -110863,6 +112123,11 @@ MonoBehaviour:
     waitTime: 3
     anim: {fileID: 8474074564460024367}
     anima: BlockEnd
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Block
     behavior: 1
     startPostion: {fileID: 642962838}
@@ -110873,6 +112138,11 @@ MonoBehaviour:
     waitTime: 3.5
     anim: {fileID: 8474074564460024367}
     anima: Block
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Die
     behavior: 0
     startPostion: {fileID: 1319193662}
@@ -110883,6 +112153,12 @@ MonoBehaviour:
     waitTime: 20
     anim: {fileID: 8474074564460024367}
     anima: Die
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
+  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &8474074564460024371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110898,6 +112174,102 @@ MonoBehaviour:
   radius: 30
   softness: 1
   updateTime: 0.1
+--- !u!82 &8474074564460024372
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8474074564460024366}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &8480361277854923917
 GameObject:
   m_ObjectHideFlags: 0
@@ -118589,6 +119961,7 @@ GameObject:
   - component: {fileID: 9172968047930146296}
   - component: {fileID: 9172968047930146295}
   - component: {fileID: 9172968047930146293}
+  - component: {fileID: 9172968047930146297}
   m_Layer: 0
   m_Name: water
   m_TagString: Untagged
@@ -118621,6 +119994,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 235105af7079c5841a81462f48d26857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  secondElementalIndex: 0
+  secondEnding: 0
   elementalInfo:
   - Description: Sitting in Lake
     behavior: 0
@@ -118632,6 +120007,11 @@ MonoBehaviour:
     waitTime: 54
     anim: {fileID: 9172968047930146296}
     anima: Sitting
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Eyes
     behavior: 0
     startPostion: {fileID: 1446397300}
@@ -118642,6 +120022,11 @@ MonoBehaviour:
     waitTime: 8
     anim: {fileID: 9172968047930146296}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Run to meeting
     behavior: 1
     startPostion: {fileID: 744091599}
@@ -118652,6 +120037,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 9172968047930146296}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Meeting
     behavior: 0
     startPostion: {fileID: 440566728}
@@ -118662,6 +120052,11 @@ MonoBehaviour:
     waitTime: 3
     anim: {fileID: 9172968047930146296}
     anima: Yell
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Forest run
     behavior: 1
     startPostion: {fileID: 440566728}
@@ -118672,6 +120067,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 9172968047930146296}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Waiting
     behavior: 0
     startPostion: {fileID: 1181454557}
@@ -118682,6 +120082,11 @@ MonoBehaviour:
     waitTime: 12.8
     anim: {fileID: 9172968047930146296}
     anima: Idle
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Run to BS position
     behavior: 1
     startPostion: {fileID: 867723051}
@@ -118692,6 +120097,11 @@ MonoBehaviour:
     waitTime: 0
     anim: {fileID: 9172968047930146296}
     anima: Run
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Prepared
     behavior: 0
     startPostion: {fileID: 577534345}
@@ -118702,6 +120112,11 @@ MonoBehaviour:
     waitTime: 14
     anim: {fileID: 9172968047930146296}
     anima: Prepared
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Looking Fog
     behavior: 0
     startPostion: {fileID: 577534345}
@@ -118712,6 +120127,11 @@ MonoBehaviour:
     waitTime: 5
     anim: {fileID: 9172968047930146296}
     anima: React
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Fog
     behavior: 0
     startPostion: {fileID: 577534345}
@@ -118722,6 +120142,11 @@ MonoBehaviour:
     waitTime: 5
     anim: {fileID: 9172968047930146296}
     anima: Suffer
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Death
     behavior: 0
     startPostion: {fileID: 577534345}
@@ -118732,6 +120157,12 @@ MonoBehaviour:
     waitTime: 120
     anim: {fileID: 9172968047930146296}
     anima: Dead
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
+  offset: {x: 0, y: 0, z: 0}
 --- !u!54 &9172968047930146295
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -118767,6 +120198,102 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!82 &9172968047930146297
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9172968047930146292}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &9174784504113171883
 Transform:
   m_ObjectHideFlags: 0
