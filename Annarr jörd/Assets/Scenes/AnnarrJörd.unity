@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.3087264, g: 0.32509142, b: 0.3631713, a: 1}
+  m_IndirectSpecularColor: {r: 0.35028312, g: 0.40196067, b: 0.5130474, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -10987,6 +10987,133 @@ Transform:
   m_Father: {fileID: 1702957234}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &508232690
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 508232691}
+  - component: {fileID: 508232692}
+  m_Layer: 0
+  m_Name: NarrationHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &508232691
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508232690}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 884501140}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &508232692
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508232690}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &525861863
 GameObject:
   m_ObjectHideFlags: 0
@@ -31016,10 +31143,10 @@ GameObject:
   - component: {fileID: 884501139}
   - component: {fileID: 884501138}
   - component: {fileID: 884501137}
+  - component: {fileID: 884501143}
   - component: {fileID: 884501142}
   - component: {fileID: 884501141}
-  - component: {fileID: 884501143}
-  - component: {fileID: 884501144}
+  - component: {fileID: 884501145}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -31040,7 +31167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   secondEnding: 0
-  secondCameraIndex: 0
+  secondCameraIndex: 31
   cameraInfo:
   - Description: Portal Opening
     behavior: 0
@@ -31051,6 +31178,13 @@ MonoBehaviour:
     timer: 0
     waitTime: 10
     startTimerNow: 0
+    continueMusic: 0
+    fadeOutLong: 0
+    EnableSoundFX: 1
+    SFX: {fileID: 8300000, guid: 8774729c7bde49b42bb50595924cde5b, type: 3}
+    volume: 1
+    fadeIn: 1
+    fadeOut: 1
   - Description: OV Fire Kingdom
     behavior: 1
     startPostion: {fileID: 1647473924}
@@ -31060,6 +31194,13 @@ MonoBehaviour:
     timer: 0
     waitTime: 4
     startTimerNow: 1
+    continueMusic: 1
+    fadeOutLong: 0
+    EnableSoundFX: 1
+    SFX: {fileID: 8300000, guid: f52cfd667c3a8c34cb0502e3b26574a6, type: 3}
+    volume: 1
+    fadeIn: 1
+    fadeOut: 0
   - Description: OV Air Kingdom
     behavior: 1
     startPostion: {fileID: 1584340353}
@@ -31069,6 +31210,13 @@ MonoBehaviour:
     timer: 0
     waitTime: 4
     startTimerNow: 1
+    continueMusic: 1
+    fadeOutLong: 0
+    EnableSoundFX: 0
+    SFX: {fileID: 8300000, guid: f52cfd667c3a8c34cb0502e3b26574a6, type: 3}
+    volume: 1
+    fadeIn: 0
+    fadeOut: 0
   - Description: OV Water Kingdom
     behavior: 0
     startPostion: {fileID: 2064318513}
@@ -31078,6 +31226,13 @@ MonoBehaviour:
     timer: 0
     waitTime: 4
     startTimerNow: 0
+    continueMusic: 1
+    fadeOutLong: 0
+    EnableSoundFX: 0
+    SFX: {fileID: 8300000, guid: f52cfd667c3a8c34cb0502e3b26574a6, type: 3}
+    volume: 1
+    fadeIn: 0
+    fadeOut: 0
   - Description: OV Earth Kingdom
     behavior: 1
     startPostion: {fileID: 246666100}
@@ -31087,6 +31242,13 @@ MonoBehaviour:
     timer: 0
     waitTime: 4
     startTimerNow: 1
+    continueMusic: 1
+    fadeOutLong: 0
+    EnableSoundFX: 0
+    SFX: {fileID: 8300000, guid: f52cfd667c3a8c34cb0502e3b26574a6, type: 3}
+    volume: 1
+    fadeIn: 0
+    fadeOut: 0
   - Description: Introducing Hero
     behavior: 1
     startPostion: {fileID: 1294333903}
@@ -31096,6 +31258,13 @@ MonoBehaviour:
     timer: 0
     waitTime: 7
     startTimerNow: 1
+    continueMusic: 0
+    fadeOutLong: 1
+    EnableSoundFX: 0
+    SFX: {fileID: 8300000, guid: f52cfd667c3a8c34cb0502e3b26574a6, type: 3}
+    volume: 1
+    fadeIn: 0
+    fadeOut: 1
   - Description: static camera Villain Face
     behavior: 0
     startPostion: {fileID: 1552758032}
@@ -31105,6 +31274,13 @@ MonoBehaviour:
     timer: 0
     waitTime: 3
     startTimerNow: 0
+    continueMusic: 1
+    fadeOutLong: 0
+    EnableSoundFX: 1
+    SFX: {fileID: 8300000, guid: fb5ee78a8c001d74ca6434a4d5aee250, type: 3}
+    volume: 1
+    fadeIn: 1
+    fadeOut: 0
   - Description: Rotate Around Villain
     behavior: 2
     startPostion: {fileID: 1552758032}
@@ -31114,6 +31290,13 @@ MonoBehaviour:
     timer: 0
     waitTime: 7
     startTimerNow: 0
+    continueMusic: 1
+    fadeOutLong: 0
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: follows Villain Going out portal
     behavior: 1
     startPostion: {fileID: 590345675}
@@ -31123,6 +31306,13 @@ MonoBehaviour:
     timer: 0
     waitTime: 6
     startTimerNow: 1
+    continueMusic: 0
+    fadeOutLong: 0
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: looking portal Villain Walking
     behavior: 0
     startPostion: {fileID: 1583723399}
@@ -31132,6 +31322,13 @@ MonoBehaviour:
     timer: 0
     waitTime: 5
     startTimerNow: 0
+    continueMusic: 1
+    fadeOutLong: 0
+    EnableSoundFX: 1
+    SFX: {fileID: 8300000, guid: 14a1cf915de1c2448b200ab123c01445, type: 3}
+    volume: 1
+    fadeIn: 1
+    fadeOut: 0
   - Description: Hero notice Villain presence
     behavior: 0
     startPostion: {fileID: 2004889216}
@@ -31141,6 +31338,13 @@ MonoBehaviour:
     timer: 0
     waitTime: 5
     startTimerNow: 0
+    continueMusic: 1
+    fadeOutLong: 0
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Heroes Eyes
     behavior: 0
     startPostion: {fileID: 1325237592}
@@ -31150,6 +31354,13 @@ MonoBehaviour:
     timer: 0
     waitTime: 5
     startTimerNow: 0
+    continueMusic: 1
+    fadeOutLong: 0
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Elementals meeting
     behavior: 0
     startPostion: {fileID: 1473266000}
@@ -31159,6 +31370,13 @@ MonoBehaviour:
     timer: 0
     waitTime: 6
     startTimerNow: 0
+    continueMusic: 1
+    fadeOutLong: 0
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Hero arriving Battle field
     behavior: 0
     startPostion: {fileID: 1656749438}
@@ -31168,6 +31386,13 @@ MonoBehaviour:
     timer: 0
     waitTime: 4
     startTimerNow: 0
+    continueMusic: 1
+    fadeOutLong: 0
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Hero walks to villan
     behavior: 0
     startPostion: {fileID: 773449784}
@@ -31177,6 +31402,13 @@ MonoBehaviour:
     timer: 0
     waitTime: 0.1
     startTimerNow: 0
+    continueMusic: 1
+    fadeOutLong: 0
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Hero Walks villan TOP
     behavior: 1
     startPostion: {fileID: 773449784}
@@ -31186,6 +31418,13 @@ MonoBehaviour:
     timer: 0
     waitTime: 0
     startTimerNow: 0
+    continueMusic: 1
+    fadeOutLong: 0
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Villain Facing hero
     behavior: 1
     startPostion: {fileID: 1538474767}
@@ -31195,6 +31434,13 @@ MonoBehaviour:
     timer: 0
     waitTime: 1
     startTimerNow: 0
+    continueMusic: 1
+    fadeOutLong: 0
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Hero facing villain
     behavior: 1
     startPostion: {fileID: 228324186}
@@ -31204,6 +31450,13 @@ MonoBehaviour:
     timer: 0
     waitTime: 1
     startTimerNow: 0
+    continueMusic: 1
+    fadeOutLong: 0
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Elements arriving battle field
     behavior: 0
     startPostion: {fileID: 2120955444}
@@ -31213,6 +31466,13 @@ MonoBehaviour:
     timer: 0
     waitTime: 2
     startTimerNow: 0
+    continueMusic: 1
+    fadeOutLong: 0
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Elemental seeing villain
     behavior: 0
     startPostion: {fileID: 1474095844}
@@ -31222,6 +31482,13 @@ MonoBehaviour:
     timer: 0
     waitTime: 2
     startTimerNow: 0
+    continueMusic: 1
+    fadeOutLong: 0
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: focus Earth hero
     behavior: 0
     startPostion: {fileID: 1544323819}
@@ -31231,6 +31498,13 @@ MonoBehaviour:
     timer: 0
     waitTime: 3
     startTimerNow: 0
+    continueMusic: 1
+    fadeOutLong: 0
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Earth hero runs to villain.1
     behavior: 0
     startPostion: {fileID: 1898858729}
@@ -31240,6 +31514,13 @@ MonoBehaviour:
     timer: 0
     waitTime: 0.2
     startTimerNow: 0
+    continueMusic: 1
+    fadeOutLong: 0
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Earth hero runs to villain.2
     behavior: 1
     startPostion: {fileID: 1898858729}
@@ -31249,6 +31530,13 @@ MonoBehaviour:
     timer: 0
     waitTime: 0
     startTimerNow: 0
+    continueMusic: 1
+    fadeOutLong: 0
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: fog
     behavior: 0
     startPostion: {fileID: 202204882}
@@ -31258,6 +31546,13 @@ MonoBehaviour:
     timer: 0
     waitTime: 1.5
     startTimerNow: 0
+    continueMusic: 1
+    fadeOutLong: 0
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Fog from top
     behavior: 0
     startPostion: {fileID: 389454172}
@@ -31267,6 +31562,13 @@ MonoBehaviour:
     timer: 0
     waitTime: 2
     startTimerNow: 0
+    continueMusic: 1
+    fadeOutLong: 0
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Elemantals agony
     behavior: 0
     startPostion: {fileID: 2120955444}
@@ -31276,6 +31578,13 @@ MonoBehaviour:
     timer: 0
     waitTime: 10
     startTimerNow: 0
+    continueMusic: 1
+    fadeOutLong: 0
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: hero looking around
     behavior: 0
     startPostion: {fileID: 2130040008}
@@ -31285,6 +31594,13 @@ MonoBehaviour:
     timer: 0
     waitTime: 8
     startTimerNow: 0
+    continueMusic: 1
+    fadeOutLong: 0
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Hero and villain
     behavior: 0
     startPostion: {fileID: 1870570245}
@@ -31294,15 +31610,29 @@ MonoBehaviour:
     timer: 0
     waitTime: 1
     startTimerNow: 0
+    continueMusic: 1
+    fadeOutLong: 0
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: hero runs to villain
     behavior: 0
     startPostion: {fileID: 1870570245}
     endPostion: {fileID: 44993718}
     target: {fileID: 0}
-    speed: 7
+    speed: 0
     timer: 0
     waitTime: 20
     startTimerNow: 0
+    continueMusic: 0
+    fadeOutLong: 1
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
   - Description: Villain dies
     behavior: 0
     startPostion: {fileID: 1873294488}
@@ -31312,6 +31642,13 @@ MonoBehaviour:
     timer: 0
     waitTime: 8
     startTimerNow: 0
+    continueMusic: 1
+    fadeOutLong: 0
+    EnableSoundFX: 1
+    SFX: {fileID: 8300000, guid: d9e280ca0b9d3ad4f83da6d4defd2c91, type: 3}
+    volume: 1
+    fadeIn: 1
+    fadeOut: 0
   - Description: Elementals
     behavior: 2
     startPostion: {fileID: 2120955444}
@@ -31321,6 +31658,29 @@ MonoBehaviour:
     timer: 0
     waitTime: 4.939469
     startTimerNow: 0
+    continueMusic: 1
+    fadeOutLong: 0
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
+  - Description: 
+    behavior: 2
+    startPostion: {fileID: 2120955444}
+    endPostion: {fileID: 0}
+    target: {fileID: 1679753494}
+    speed: 35
+    timer: 0
+    waitTime: 4.939469
+    startTimerNow: 0
+    continueMusic: 1
+    fadeOutLong: 0
+    EnableSoundFX: 0
+    SFX: {fileID: 0}
+    volume: 0
+    fadeIn: 0
+    fadeOut: 0
 --- !u!81 &884501138
 AudioListener:
   m_ObjectHideFlags: 0
@@ -31384,6 +31744,7 @@ Transform:
   m_LocalScale: {x: 1.4999995, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 986046023}
+  - {fileID: 508232691}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 7.161, y: 150.805, z: 0}
@@ -31436,10 +31797,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: c585872720a53b54eba06cdce96a62dd, type: 3}
   - {fileID: 8300000, guid: 8db2b406b0c47de45874421916994516, type: 3}
   - {fileID: 8300000, guid: ae6eb89e96e92184a962b2bfae4b4bd9, type: 3}
-  narration: {fileID: 884501144}
+  narration: {fileID: 508232692}
   musicHandler: {fileID: 986046022}
   currentClip: 0
---- !u!82 &884501144
+--- !u!82 &884501145
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -31449,15 +31810,15 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 94869d0efcc4dc943bbc07db9c770e83, type: 3}
-  m_PlayOnAwake: 0
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 157
+  Priority: 128
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -37855,7 +38216,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &986046022
 AudioSource:
   m_ObjectHideFlags: 0
@@ -43921,7 +44282,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1421443002}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 550.879, y: 65.30909, z: 344.5686}
+  m_LocalPosition: {x: 550.879, y: 65.30908, z: 344.56857}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1032224503}
@@ -53538,7 +53899,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1787538057}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 461.8308, y: -94.052246, z: 27.55474}
+  m_LocalPosition: {x: 461.83087, y: -94.05223, z: 27.554749}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1343203125}
@@ -59766,7 +60127,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &405079580087808157
 GameObject:
   m_ObjectHideFlags: 0
@@ -60140,7 +60501,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &476666896920378715
 Transform:
   m_ObjectHideFlags: 0
@@ -62677,7 +63038,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1049390166075306209
 Transform:
   m_ObjectHideFlags: 0
@@ -64835,7 +65196,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1384542718044048376
 Transform:
   m_ObjectHideFlags: 0
@@ -73524,7 +73885,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &2289357056909835587
 GameObject:
   m_ObjectHideFlags: 0
@@ -93092,7 +93453,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4364700280173911814
 Transform:
   m_ObjectHideFlags: 0
@@ -94689,7 +95050,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &4616623978235562328
 GameObject:
   m_ObjectHideFlags: 0
@@ -96224,7 +96585,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &5002842236289095536
 GameObject:
   m_ObjectHideFlags: 0
@@ -107434,7 +107795,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7551371450080271743
 Transform:
   m_ObjectHideFlags: 0
@@ -112019,8 +112380,8 @@ MonoBehaviour:
     anim: {fileID: 8474074564460024367}
     anima: Idle
     EnableSoundFX: 0
-    SFX: {fileID: 0}
-    volume: 0
+    SFX: {fileID: 8300000, guid: 8774729c7bde49b42bb50595924cde5b, type: 3}
+    volume: 100
     fadeIn: 0
     fadeOut: 0
   - Description: Walk Towards Heores
@@ -118621,7 +118982,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8831004571673476244
 Transform:
   m_ObjectHideFlags: 0
@@ -119061,7 +119422,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8940164152787161638
 Transform:
   m_ObjectHideFlags: 0
@@ -119532,7 +119893,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &9069286312944983315
 Transform:
   m_ObjectHideFlags: 0
