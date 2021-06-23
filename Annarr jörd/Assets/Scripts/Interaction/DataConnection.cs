@@ -34,6 +34,10 @@ public class DataConnection : MonoBehaviour
         {
             heroTransformation.SetActive(true);
             heroBasic.SetActive(false);
+        } else if (transformation == false)
+        {
+            heroTransformation.SetActive(false);
+            heroBasic.SetActive(true);
         }
     }
 

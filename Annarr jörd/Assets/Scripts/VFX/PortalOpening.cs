@@ -50,9 +50,7 @@ public class PortalOpening : MonoBehaviour
         {
             transform.position = newPos[1].position;
             portal1.transform.localScale = new Vector3(1f, 2f, 0);
-            portal1.transform.rotation = newPos[1].rotation;
             portal2.transform.localScale = new Vector3(1f, 2f, 0);
-            portal2.transform.rotation = newPos[1].rotation;  
         }
 
 
