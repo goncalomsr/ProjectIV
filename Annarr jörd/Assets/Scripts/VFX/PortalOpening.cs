@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PortalOpening : MonoBehaviour
 {
-    public GameObject portal1, portal2;
+    public GameObject portal1, portal2, otherWorld;
 
 
     public Vector3 maxLocalScale;
@@ -14,6 +14,7 @@ public class PortalOpening : MonoBehaviour
     public float ScaleTime2;
     public bool Scale1;
     public bool Scale2;
+    public float disableOw;
     public float Pos2Time;
     public float Pos3Time;
     public Transform[] newPos;
@@ -49,8 +50,9 @@ public class PortalOpening : MonoBehaviour
         if (timer > Pos2Time && Scale2 == false)
         {
             transform.position = newPos[1].position;
-            portal1.transform.localScale = new Vector3(1f, 2f, 0);
-            portal2.transform.localScale = new Vector3(1f, 2f, 0);
+            transform.rotation = newPos[1].rotation;
+            portal1.transform.localScale = new Vector3(0.5f, 1f, 0);
+            portal2.transform.localScale = new Vector3(0.5f, 1f, 0);
         }
 
 
@@ -72,6 +74,11 @@ public class PortalOpening : MonoBehaviour
                 portal1.transform.localScale += new Vector3(0.2F, 0.4F, 0) * Time.deltaTime;
                 portal2.transform.localScale += new Vector3(0.2F, 0.4F, 0) * Time.deltaTime;
             }
+        }
+
+        if (timer > disableOw)
+        {
+            otherWorld.SetActive(false);
         }
     }
 }

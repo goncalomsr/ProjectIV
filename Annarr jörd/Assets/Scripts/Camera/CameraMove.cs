@@ -49,12 +49,12 @@ public class CameraMove : MonoBehaviour
         musicHandler = GetComponent<AudioSource>();
         cameraInfo[currentCameraIndex].volume = 1;
 
-        Time.timeScale = 1;
+        Time.timeScale = 2;
     }
 
     void Update()
     {
-        if(currentCameraIndex == 25)
+        if(currentCameraIndex == 6)
         {
             Time.timeScale = 1;
         }
